@@ -1,3 +1,0 @@
-﻿Name,Description,Data Type,Example Values,Related Tag
-category,Maps to the main navigation category names,String,"Supplements, Nutrition, Fitness","Product Clicks EE (Tags%2014d7dee22b178163b49fc98f78f3ee9c/Product%20Clicks%20EE%2014d7dee22b178101bd6ae9ad3d68ae5f.csv), Product Impressions EE (Tags%2014d7dee22b178163b49fc98f78f3ee9c/Product%20Impressions%20EE%2014d7dee22b17815fb578ef3338e883a3.csv)"
-brand,Brand of the product sold,String,Onnit,"Product Clicks EE (Tags%2014d7dee22b178163b49fc98f78f3ee9c/Product%20Clicks%20EE%2014d7dee22b178101bd6ae9ad3d68ae5f.csv), Product Impressions EE (Tags%2014d7dee22b178163b49fc98f78f3ee9c/Product%20Impressions%20EE%2014d7dee22b17815fb578ef3338e883a3.csv)"

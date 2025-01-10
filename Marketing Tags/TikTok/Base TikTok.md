@@ -10,11 +10,10 @@ This page provides access to the `KBX Stape BASE TikTok Event.json` file. Click 
 
 ## Instructions
 
-1. Click the link above to download the `.json` file.
+1. Click the link above to 'download the `.json` file.
 2. Save it to your downloads folder.
 3. Import the file into your GTM container as needed. 
 4. Once the install is complete, delete the file from your local machine.
 
 ---
 
-### Back to [Main Wiki](index.md)

@@ -15,4 +15,4 @@ This page provides access to the `KBX Stape Gads, GA4, Meta Event.json` file. Cl
 
 ---
 
-### Back to [Main Wiki](index.md)
+### Back to [Main Wiki](/index.md)

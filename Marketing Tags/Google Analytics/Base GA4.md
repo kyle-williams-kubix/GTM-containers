@@ -17,4 +17,4 @@ This page provides access to the `KBX Stape BASE GA4 Event.json` file. Click the
 
 ---
 
-### Back to [Main Wiki](index.md)
+### Back to [Main Wiki](/index.md)
