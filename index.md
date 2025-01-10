@@ -1,9 +1,8 @@
 # SST Containers home
-![](Assets/Frame 45.png)
+![](https://github.com/kyle-williams-kubix/GTM-containers/blob/main/Assets/Logos/Frame%2048.png?raw=true)
 
 <aside>
 💡
-
 This wiki is constantly evolving and it’ll never be ‘complete’. If you feel that something deserves a page please request one.
 
 </aside>
