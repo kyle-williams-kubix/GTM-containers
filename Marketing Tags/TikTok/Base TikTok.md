@@ -10,6 +10,7 @@ This page provides access to the `KBX Stape BASE TikTok Event.json` file. Click 
 
 - [Download KBX Stape BASE TikTok Event JSON](- [Download KBX Stape BASE TikTok Event JSON](https://github.com/kyle-williams-kubix/GTM-containers/blob/main/Marketing%20Tags/Google%20Ads/KBX%20Stape%20BASE%20GA4%20Event.json))
 
+- [Download KBX Stape BASE TikTok Event JSON](https://raw.githubusercontent.com/kyle-williams-kubix/GTM-containers/main/Marketing%20Tags/Google%20Ads/KBX%20Stape%20BASE%20GA4%20Event.json)
 
 
 - [Download KBX Stape BASE TikTok Event JSON](Marketing Tags/Google Ads/KBX Stape BASE GA4 Event.json)
