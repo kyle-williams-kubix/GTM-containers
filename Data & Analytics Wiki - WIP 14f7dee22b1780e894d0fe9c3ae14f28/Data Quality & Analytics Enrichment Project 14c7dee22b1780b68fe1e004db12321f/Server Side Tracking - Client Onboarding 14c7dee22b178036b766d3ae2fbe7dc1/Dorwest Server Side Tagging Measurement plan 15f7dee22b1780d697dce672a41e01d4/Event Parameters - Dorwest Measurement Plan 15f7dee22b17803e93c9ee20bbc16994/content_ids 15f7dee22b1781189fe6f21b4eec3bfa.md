@@ -1,0 +1,7 @@
+# content_ids
+
+Description: Unique identifiers for the items involved in the event.
+Data type: String
+Related Events V2.0: Product_purchase (https://www.notion.so/Product_purchase-14f7dee22b1780c8bbcbdb48646326f7?pvs=21), Swatch_purchase (https://www.notion.so/Swatch_purchase-14f7dee22b178056ae70e046d0d891e1?pvs=21), 
+view_item
+ (https://www.notion.so/view_item-14f7dee22b178031806af6c5a38d7462?pvs=21), add_payment_info (https://www.notion.so/add_payment_info-14f7dee22b17801bb7c0ee83abcbd4ac?pvs=21), purchase (https://www.notion.so/purchase-14f7dee22b17800abb31c8e728e897a3?pvs=21), begin_checkout (https://www.notion.so/begin_checkout-14f7dee22b178009b146ff8ad4b9520f?pvs=21), add_shipping_info (https://www.notion.so/add_shipping_info-14f7dee22b1780f48092c476ca91212a?pvs=21)

@@ -1,0 +1,5 @@
+# transaction_id
+
+Description: Unique ID assigned to a completed purchase transaction.
+Data type: String
+Related Events V2.0: Product_purchase (https://www.notion.so/Product_purchase-14f7dee22b1780c8bbcbdb48646326f7?pvs=21), Swatch_purchase (https://www.notion.so/Swatch_purchase-14f7dee22b178056ae70e046d0d891e1?pvs=21), purchase (https://www.notion.so/purchase-14f7dee22b17800abb31c8e728e897a3?pvs=21)

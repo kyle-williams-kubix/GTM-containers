@@ -1,0 +1,3 @@
+﻿Tag Name,Trigger,Variables,Status,Link,Last Updated,Last Updated By
+Product Impressions EE,When a product is visible on a user's screen,"brand (Variables%2014d7dee22b17817495ccf6ca5b846322/brand%2014d7dee22b1781508874c987eb154569.csv), category (Variables%2014d7dee22b17817495ccf6ca5b846322/category%2014d7dee22b17813ea1e0e1b3f6dc43e1.csv)",minor issues (staging),,"November 29, 2024 11:45 PM","Ky "
+Product Clicks EE,When a user clicks on a product,"brand (Variables%2014d7dee22b17817495ccf6ca5b846322/brand%2014d7dee22b1781508874c987eb154569.csv), category (Variables%2014d7dee22b17817495ccf6ca5b846322/category%2014d7dee22b17813ea1e0e1b3f6dc43e1.csv)",Live,,"November 29, 2024 11:45 PM","Ky "
