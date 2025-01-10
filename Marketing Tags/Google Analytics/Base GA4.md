@@ -5,9 +5,8 @@ This page provides access to the `KBX Stape BASE GA4 Event.json` file. Click the
 
 ## Download Link
 
-- [Download KBX Stape BASE GA4 Event JSON](https://github.com/kyle-williams-kubix/GTM-containers/blob/1a4712a3bb13d656501e67aecd9cac7b35ba0df1/Marketing%20Tags/Base%20KBX/sGTM%20Base%20KBX%20container.json)
+- [Download KBX Stape BASE GA4 Event JSON](https://github.com/kyle-williams-kubix/GTM-containers/blob/d9ea799be5c36470a6b378f6f4ec800f029882f9/Marketing%20Tags/Google%20Analytics/KBX%20Stape%20BASE%20GA4%20Event.json)
 
-- [Download KBX Stape BASE GA4 Event JSON](Marketing Tags/Google Ads/KBX Stape BASE GA4 Event.json)
 
 ## Instructions
 
