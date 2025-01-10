@@ -11,7 +11,7 @@ This wiki is constantly evolving and it’ll never be ‘complete’. If you fee
 
 ---
 
-[Base-KBX](Marketing Tags/Base KBX)
+[Base-KBX](Marketing Tags/Base KBX/base KBX.md)
 
 [Google-Ads](Marketing Tags/Google Ads)
 
@@ -27,10 +27,7 @@ This wiki is constantly evolving and it’ll never be ‘complete’. If you fee
 
 [TikTok](Marketing Tags/TikTok)
 
-### **Resources**
+## Available Files
+- [GA4 Event Setup JSON](https://raw.githubusercontent.com/kyle-williams-kubix/stape-GTM/main/sGTM/GA4/KBX%20Stape%20GA4%20event%20setup.json) - Download the GA4 setup file.
+- [TikTok Event Setup JSON](https://raw.githubusercontent.com/kyle-williams-kubix/stape-GTM/main/sGTM/TikTok/KBX%20Stape%20TikTok%20event%20setup.json) - Download the TikTok setup file.
 
-[Data-Analytics] (Data & Analytics Wiki - WIP 14f7dee22b1780e894d0fe9c3ae14f28/Tools we work with KBX - MASTER 14d7dee22b178071a3dcd550d34504f4/Stape io 14d7dee22b1781a79f7ce38cef316233.md)
----
-
-
-### Projects
