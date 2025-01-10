@@ -1,17 +1,18 @@
-# sGTM GA4 Event Setup
+# sGTM Base Google Ads, Meta & GA4 Event Setup
 
-This page provides access to the `KBX Stape GA4 Event Setup` file. Click the link below to download the file directly.
+This page provides access to the `KBX Stape Gads, GA4, Meta Event.json` file. Click the link below to download the file directly.
 
 ## Download Link
 
-- [Download KBX Stape GA4 Event Setup JSON](https://github.com/kyle-williams-kubix/stape-GTM/blob/847e630f74f315278b29e42e3da376a59a63d714/sGTM/GA4/KBX%20Stape%20GA4%20event%20setup.json)
+- [Download KBX Stape Gads, GA4, Meta Event JSON](https://github.com/kyle-williams-kubix/GTM-containers/blob/1a4712a3bb13d656501e67aecd9cac7b35ba0df1/Marketing%20Tags/Base%20KBX/sGTM%20Base%20KBX%20container.json)
 
 ## Instructions
 
 1. Click the link above to download the `.json` file.
-2. Save it to your local directory.
-3. Import the file into your GTM container as needed.
+2. Save it to your downloads folder.
+3. Import the file into your GTM container as needed. 
+4. Once the install is complete, delete the file from your local machine.
 
 ---
 
-### Back to [Main Wiki](../index.md)
+### Back to [Main Wiki](index.md)
