@@ -1,4 +1,5 @@
 # sGTM Base Google Analytics 4 Event Setup
+![](https://raw.githubusercontent.com/kyle-williams-kubix/GTM-containers/refs/heads/main/Assets/Logos/Banner.png)
 
 This page provides access to the `KBX Stape BASE GA4 Event.json` file. Click the link below to download the file directly.
 
@@ -16,5 +17,4 @@ This page provides access to the `KBX Stape BASE GA4 Event.json` file. Click the
 4. Once the install is complete, delete the file from your local machine.
 
 ---
-
-### Back to [Main Wiki](/index.md)
+### Back to [Home](/index.md)

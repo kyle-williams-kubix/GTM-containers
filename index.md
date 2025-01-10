@@ -1,5 +1,6 @@
 # SST Containers home
-![](https://github.com/kyle-williams-kubix/GTM-containers/blob/main/Assets/Logos/Frame%2048.png?raw=true)
+![](https://raw.githubusercontent.com/kyle-williams-kubix/GTM-containers/refs/heads/main/Assets/Logos/Banner.png)
+
 
 <aside>
 💡
