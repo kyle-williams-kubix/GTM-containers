@@ -4,7 +4,7 @@ This page provides access to the `KBX Stape GA4 Event Setup` file. Click the lin
 
 ## Download Link
 
-- [Download KBX Stape GA4 Event Setup JSON](https://raw.githubusercontent.com/kyle-williams-kubix/stape-GTM/main/sGTM/GA4/KBX%20Stape%20GA4%20event%20setup.json)
+- [Download KBX Stape GA4 Event Setup JSON](https://github.com/kyle-williams-kubix/stape-GTM/blob/847e630f74f315278b29e42e3da376a59a63d714/sGTM/GA4/KBX%20Stape%20GA4%20event%20setup.json)
 
 ## Instructions
 
