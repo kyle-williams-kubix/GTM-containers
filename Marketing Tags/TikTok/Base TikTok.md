@@ -6,7 +6,6 @@ This page provides access to the `KBX Stape BASE TikTok Event.json` file. Click 
 ## Download Link
 
 - [Download KBX Stape BASE TikTok Event JSON](https://github.com/kyle-williams-kubix/GTM-containers/blob/d9ea799be5c36470a6b378f6f4ec800f029882f9/Marketing%20Tags/TikTok/KBX%20Stape%20BASE%20TikTok%20Event.json)
-
 ## Instructions
 
 1. Click the link above to 'download the `.json` file.
@@ -15,4 +14,4 @@ This page provides access to the `KBX Stape BASE TikTok Event.json` file. Click 
 4. Once the install is complete, delete the file from your local machine.
 
 ---
-### Back to [Home](/index.md)
+### Back to [Home](https://kyle-williams-kubix.github.io/GTM-containers/)

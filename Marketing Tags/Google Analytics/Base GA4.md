@@ -16,4 +16,4 @@ This page provides access to the `KBX Stape BASE GA4 Event.json` file. Click the
 4. Once the install is complete, delete the file from your local machine.
 
 ---
-### Back to [Home](/index.md)
+### Back to [Home](https://kyle-williams-kubix.github.io/GTM-containers/)

@@ -15,4 +15,4 @@ This page provides access to the `KBX Stape Gads, GA4, Meta Event.json` file. Cl
 4. Once the install is complete, delete the file from your local machine.
 
 ---
-### Back to [Home](/index.md)
+### Back to [Home](https://kyle-williams-kubix.github.io/GTM-containers/)
