@@ -29,7 +29,7 @@ This wiki is constantly evolving and it’ll never be ‘complete’. If you fee
 
 ### **Resources**
 
-[Data & Analytics] (Data & Analytics Wiki - WIP 14f7dee22b1780e894d0fe9c3ae14f28)
+[Data-Analytics] (Data & Analytics Wiki - WIP 14f7dee22b1780e894d0fe9c3ae14f28/Tools we work with KBX - MASTER 14d7dee22b178071a3dcd550d34504f4/Stape io 14d7dee22b1781a79f7ce38cef316233.md)
 ---
 
 
