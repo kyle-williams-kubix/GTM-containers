@@ -1,0 +1,264 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-01-13 15:52:10",
+    "containerVersion": {
+        "path": "",
+        "accountId": "",
+        "containerId": "",
+        "containerVersionId": "0",
+        "container": {
+            "path": "",
+            "accountId": "",
+            "containerId": "",
+            "name": "",
+            "publicId": "",
+            "usageContext": [
+                "SERVER"
+            ],
+            "fingerprint": "",
+            "tagManagerUrl": "",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": true,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": true
+            },
+            "tagIds": [
+                ""
+            ],
+            "taggingServerUrls": [
+                ""
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6260693288",
+                "containerId": "201604294",
+                "tagId": "312",
+                "name": "[KBX] ADS - returning_customer_purchase [sGTM]",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "productReportingDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "newCustomerDataSource",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{const - google ads conversion id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{const - google ads [returning_customer_purchase] conversion label}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1736782550192",
+                "firingTriggerId": [
+                    "307"
+                ],
+                "parentFolderId": "306",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6260693288",
+                "containerId": "201604294",
+                "triggerId": "289",
+                "name": "ga4 - new_customer_purchase",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "new_customer_purchase"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1736780547436",
+                "parentFolderId": "127"
+            },
+            {
+                "accountId": "6260693288",
+                "containerId": "201604294",
+                "triggerId": "307",
+                "name": "ga4 - returning_customer_purchase",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "returning_customer_purchase"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1736780547442",
+                "parentFolderId": "127"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6260693288",
+                "containerId": "201604294",
+                "variableId": "308",
+                "name": "const - google ads [returning_customer_purchase] conversion label",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "VALUE_HERE"
+                    }
+                ],
+                "fingerprint": "1736780547442",
+                "parentFolderId": "114",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6260693288",
+                "containerId": "201604294",
+                "variableId": "309",
+                "name": "const - google ads conversion id",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "VALUE_HERE"
+                    }
+                ],
+                "fingerprint": "1736780580857",
+                "parentFolderId": "114",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6260693288",
+                "containerId": "201604294",
+                "folderId": "114",
+                "name": "[Stape] _Settings",
+                "fingerprint": "1733846233612"
+            },
+            {
+                "accountId": "6260693288",
+                "containerId": "201604294",
+                "folderId": "127",
+                "name": "[Stape] Triggers",
+                "fingerprint": "1733846233613"
+            },
+            {
+                "accountId": "6260693288",
+                "containerId": "201604294",
+                "folderId": "306",
+                "name": "[Stape] Google Ads",
+                "fingerprint": "1736780547441"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6260693288",
+                "containerId": "201604294",
+                "type": "CLIENT_NAME",
+                "name": "Client Name"
+            }
+        ],
+        "fingerprint": "1736783530520",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6260693288/containers/201604294/versions/0?apiLink=version"
+    }
+}
