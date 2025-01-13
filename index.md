@@ -16,7 +16,7 @@ This wiki is constantly evolving and it’ll never be ‘complete’. If you fee
 
 [Google](Marketing Tags/Google/Base Google.md)
 
-[Facebook] (Marketing Tags/Meta/Meta Tags.md)
+[Facebook](Marketing Tags/Meta/Meta Tags.md)
 
 [TikTok](Marketing Tags/TikTok/Base TikTok.md)
 
