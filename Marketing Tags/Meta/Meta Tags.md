@@ -6,7 +6,7 @@ This page provides access to the all tagging containers for meta related events.
 # Download Links
 
 ### Base setup
-[Download.json]()
+[Download.json](https://github.com/kyle-williams-kubix/GTM-containers/blob/50c8d336af325fffb5bf4afe10c7f56f2f138a9b/Marketing%20Tags/Meta/KBX%20Stape%20Base%20Meta%20Event.json)
 
 ### New & Returning purchase setup
 [Download.json](https://github.com/kyle-williams-kubix/GTM-containers/blob/3fe9b21cc6b80c88f342a345b5b948cd49fb7e54/Marketing%20Tags/Meta/sGTM%20-%20FB%20New%20vs%20returning%20purchases.json)

@@ -1,12 +1,15 @@
-# sGTM Base Google Analytics 4 Event Setup
+# sGTM Base Google Event Setup
 ![](https://raw.githubusercontent.com/kyle-williams-kubix/GTM-containers/refs/heads/main/Assets/Logos/Banner.png)
 
-This page provides access to the `KBX Stape BASE GA4 Event.json` file. Click the link below to download the file directly.
+This page provides access to the base tags for Google including GA4 and Google ads. Click the link below to download the file directly.
 
 ## Download Link
 
-- [Download KBX Stape BASE GA4 Event JSON](https://github.com/kyle-williams-kubix/GTM-containers/blob/d9ea799be5c36470a6b378f6f4ec800f029882f9/Marketing%20Tags/Google%20Analytics/KBX%20Stape%20BASE%20GA4%20Event.json)
+### Base setup
+[Download.json](https://github.com/kyle-williams-kubix/GTM-containers/blob/d9ea799be5c36470a6b378f6f4ec800f029882f9/Marketing%20Tags/Google%20Analytics/KBX%20Stape%20BASE%20GA4%20Event.json)
 
+### New & Returning purchase setup
+[Download.json](https://github.com/kyle-williams-kubix/GTM-containers/blob/50c8d336af325fffb5bf4afe10c7f56f2f138a9b/Marketing%20Tags/Google/sGTM%20-%20Google%20New%20vs%20returning%20purchases.json)
 
 ## Instructions
 

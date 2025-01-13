@@ -14,7 +14,7 @@ This wiki is constantly evolving and it’ll never be ‘complete’. If you fee
 
 [Base-KBX](Marketing Tags/Base KBX/base KBX.md)
 
-[Google](Marketing Tags/Google Analytics/Base GA4.md)
+[Google](Marketing Tags/Google/Base Google.md)
 
 [Facebook] (Marketing Tags/Meta/Meta Tags.md)
 

@@ -2,21 +2,21 @@
     "exportFormatVersion": 2,
     "exportTime": "2025-01-09 14:10:29",
     "containerVersion": {
-        "path": "accounts/6253942064/containers/203550764/versions/4",
-        "accountId": "6253942064",
-        "containerId": "203550764",
-        "containerVersionId": "4",
+        "path": "",
+        "accountId": "",
+        "containerId": "",
+        "containerVersionId": "0",
         "container": {
-            "path": "accounts/6253942064/containers/203550764",
-            "accountId": "6253942064",
-            "containerId": "203550764",
-            "name": "Memsaab sGTM",
-            "publicId": "GTM-MQS8X6RG",
+            "path": "",
+            "accountId": "",
+            "containerId": "",
+            "name": "",
+            "publicId": "",
             "usageContext": [
                 "SERVER"
             ],
-            "fingerprint": "1736421212488",
-            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6253942064/containers/203550764/workspaces?apiLink=container",
+            "fingerprint": "",
+            "tagManagerUrl": "",
             "features": {
                 "supportUserPermissions": true,
                 "supportEnvironments": true,
@@ -34,10 +34,10 @@
                 "supportTransformations": true
             },
             "tagIds": [
-                "GTM-MQS8X6RG"
+                ""
             ],
             "taggingServerUrls": [
-                "https://sst.memsaabonline.com"
+                ""
             ]
         },
         "tag": [
