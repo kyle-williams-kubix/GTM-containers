@@ -20,7 +20,13 @@ This wiki is constantly evolving and it’ll never be ‘complete’. If you fee
 
 [TikTok](Marketing Tags/TikTok/Base TikTok.md)
 
+[calc] (Ad spend calculator/Ad Metrics Calculator.html)
+
 ## Available Files
-- [Base Setup (Google + Meta)](https://github.com/kyle-williams-kubix/GTM-containers/blob/d9ea799be5c36470a6b378f6f4ec800f029882f9/Marketing%20Tags/Base%20KBX/KBX%20Stape%20Gads%2C%20GA4%2C%20Meta%20Event.json) - Download the basic GA4, Google ads and meta sGTM Setup file.
+Download the base GA4, Meta & Google ads tags here: 
+These tags will include new vs Repeat customer purchase tags for all platforms. 
+Find the measurement list [here] ()
+- [Server Container](https://github.com/kyle-williams-kubix/GTM-containers/blob/d9ea799be5c36470a6b378f6f4ec800f029882f9/Marketing%20Tags/Base%20KBX/KBX%20Stape%20Gads%2C%20GA4%2C%20Meta%20Event.json)
+- [Web Container](https://github.com/kyle-williams-kubix/GTM-containers/blob/d9ea799be5c36470a6b378f6f4ec800f029882f9/Marketing%20Tags/Base%20KBX/KBX%20Stape%20Gads%2C%20GA4%2C%20Meta%20Event.json)
 
 

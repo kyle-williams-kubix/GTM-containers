@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ad Revenue Calculator</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+    label, input { display: block; margin: 10px 0; }
+    button { padding: 10px; background-color: #DD3E7D; color: white; border: 2px; cursor: pointer; border-radius: 15px; }
+    .output { margin: 20px 0; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Ad Revenue Calculato</h1>
+  
+  <label for="adSpend">Ad Spend (£):</label>
+  <input type="number" id="adSpend" placeholder="Enter ad spend">
+  
+  <label for="clicks">Clicks:</label>
+  <input type="number" id="clicks" placeholder="Enter total clicks">
+  
+  <label for="aov">Average Order Value (£):</label>
+  <input type="number" id="aov" placeholder="Enter average order value">
+  
+  <label for="conversionRate">Conversion Rate (%):</label>
+  <input type="number" id="conversionRate" placeholder="Enter conversion rate">
+  
+  <button onclick="calculate()">Calculate</button>
+  
+  <div class="output" id="output"></div>
+
+  <script>
+    function calculate() {
+      const adSpend = parseFloat(document.getElementById('adSpend').value);
+      const clicks = parseInt(document.getElementById('clicks').value);
+      const aov = parseFloat(document.getElementById('aov').value);
+      const conversionRate = parseFloat(document.getElementById('conversionRate').value) / 100;
+
+      if (!adSpend || !clicks || !aov || !conversionRate) {
+        document.getElementById('output').innerText = "Please fill in all fields.";
+        return;
+      }
+
+      const cpc = (adSpend / clicks).toFixed(2);
+      const purchases = (clicks * conversionRate).toFixed(0);
+      const revenue = (purchases * aov).toFixed(2);
+
+      document.getElementById('output').innerHTML = `
+        Estimated CPC: £${cpc}<br>
+        Estimated number of Purchases: ${purchases}<br>
+        Total estimated Revenue: £${revenue}
+      `;
+    }
+  </script>
+</body>
+</html>
