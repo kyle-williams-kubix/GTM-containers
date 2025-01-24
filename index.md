@@ -24,7 +24,7 @@ This wiki is constantly evolving and it’ll never be ‘complete’. If you fee
 
 [TikTok](Marketing Tags/TikTok/Base TikTok.md)
 
-[Klaviyo] (Marketing Tags/Klaviyo/Klaviyo.md)
+[Klaviyo](Marketing Tags/Klaviyo/Klaviyo.md)
 
 ## Available Files
 Download the base GA4, Meta & Google ads tags here: 
