@@ -29,7 +29,7 @@ This wiki is constantly evolving and it’ll never be ‘complete’. If you fee
 ## Available Files
 Download the base GA4, Meta & Google ads tags here: 
 These tags will include new vs Repeat customer purchase tags for all platforms. 
-Find the measurement list [here] ()
+Find the measurement list [here] Coming Soon
 
 
 - [Server Container](https://github.com/kyle-williams-kubix/GTM-containers/blob/6383730ddb96cb7968a1fe3a7f403d9334537da1/Marketing%20Tags/Base%20KBX/sGTM%20-%20Stape%20Gads%2C%20GA4%2C%20Meta%20Event.json)
