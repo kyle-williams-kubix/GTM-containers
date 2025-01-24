@@ -6,7 +6,7 @@ This page provides access to the all tagging containers for Mixpanel related eve
 # Download Links
 
 ### Base setup
-[Download.json]()
+[Download.json](https://github.com/kyle-williams-kubix/GTM-containers/blob/6383730ddb96cb7968a1fe3a7f403d9334537da1/Marketing%20Tags/Mixpanel/KBX%20sGTM%20-%20Mixpanel%20Base.json)
 
 ## Instructions
 

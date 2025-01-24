@@ -56,7 +56,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "apiKey",
-                        "value": "pk_487ede196a8303cfc59cb606ed012f0beb"
+                        "value": ""
                     },
                     {
                         "type": "BOOLEAN",
@@ -159,7 +159,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "apiKey",
-                        "value": "pk_487ede196a8303cfc59cb606ed012f0beb"
+                        "value": ""
                     },
                     {
                         "type": "LIST",
@@ -288,7 +288,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "apiKey",
-                        "value": "pk_487ede196a8303cfc59cb606ed012f0beb"
+                        "value": ""
                     },
                     {
                         "type": "LIST",
