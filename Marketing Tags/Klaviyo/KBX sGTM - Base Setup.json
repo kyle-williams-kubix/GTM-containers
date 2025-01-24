@@ -1,0 +1,1069 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-01-24 13:26:02",
+    "containerVersion": {
+        "path": "accounts/6246124678/containers/199416058/versions/0",
+        "accountId": "6246124678",
+        "containerId": "199416058",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6246124678/containers/199416058",
+            "accountId": "6246124678",
+            "containerId": "199416058",
+            "name": "Test Store sGTM",
+            "publicId": "GTM-52QR9J4Q",
+            "usageContext": [
+                "SERVER"
+            ],
+            "fingerprint": "1737112978743",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6246124678/containers/199416058/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": true,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": true
+            },
+            "tagIds": [
+                "GTM-52QR9J4Q"
+            ],
+            "taggingServerUrls": [
+                "https://rojmddkd.euq.stape.net"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "448",
+                "name": "[KBX] - Klaviyo - add_to_cart",
+                "type": "cvt_199416058_424",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "apiKey",
+                        "value": "pk_487ede196a8303cfc59cb606ed012f0beb"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useOptimisticScenario",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "forwardAllProperties",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeEmail",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "event"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "customerLocationProperties",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "country"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{x-geo-country}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event",
+                        "value": "add_to_cart"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "properties",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Klaviyo items}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "email",
+                        "value": "{{st lookup - email}}"
+                    }
+                ],
+                "fingerprint": "1737724213318",
+                "firingTriggerId": [
+                    "428"
+                ],
+                "parentFolderId": "528",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "496",
+                "name": "[KBX] - Klaviyo - Viewed Product",
+                "type": "cvt_199416058_424",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "apiKey",
+                        "value": "pk_487ede196a8303cfc59cb606ed012f0beb"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "customerStandardProperties",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "anonymous_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{x-stape-user-id}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "klaviyoUserId",
+                        "value": "TQUK2f"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useOptimisticScenario",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "forwardAllProperties",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeEmail",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "event"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "customerLocationProperties",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "country"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{x-geo-country}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "event",
+                        "value": "Viewed Product"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "email",
+                        "value": "{{st lookup - email}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "properties",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Klaviyo items}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737724213318",
+                "firingTriggerId": [
+                    "427"
+                ],
+                "parentFolderId": "528",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "506",
+                "name": "[KBX] - Klaviyo - Active on site",
+                "type": "cvt_199416058_424",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "apiKey",
+                        "value": "pk_487ede196a8303cfc59cb606ed012f0beb"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "customerStandardProperties",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "external_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{x-stape-user-id}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "email"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{st lookup - email}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "first_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{st lookup - first_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "last_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{st lookup - last_name}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "klaviyoUserId",
+                        "value": "{{const - Klaviyo Public API Key}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useOptimisticScenario",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeEmail",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "active_on_site"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "email",
+                        "value": "{{st lookup - email}}"
+                    }
+                ],
+                "fingerprint": "1737724213317",
+                "firingTriggerId": [
+                    "434"
+                ],
+                "parentFolderId": "528",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "427",
+                "name": "dc - view_item",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "view_item"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689114",
+                "parentFolderId": "364"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "428",
+                "name": "dc - add_to_cart",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "add_to_cart"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689114",
+                "parentFolderId": "364"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "434",
+                "name": "dc - page_view",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "page_view"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689115",
+                "parentFolderId": "364"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "362",
+                "name": "x-stape-user-id",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "x-stape-user-id"
+                    }
+                ],
+                "fingerprint": "1737719689017",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "363",
+                "name": "st lookup - last_name",
+                "type": "cvt_199416058_360",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeResponse",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "lookupType",
+                        "value": "document"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentId",
+                        "value": "{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentPath",
+                        "value": "user_data.last_name"
+                    }
+                ],
+                "fingerprint": "1737719689017",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "373",
+                "name": "st lookup - email",
+                "type": "cvt_199416058_360",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeResponse",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "lookupType",
+                        "value": "document"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentId",
+                        "value": "{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentPath",
+                        "value": "user_data.email"
+                    }
+                ],
+                "fingerprint": "1737719689019",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "398",
+                "name": "ed - value",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "value"
+                    }
+                ],
+                "fingerprint": "1737719689089",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "407",
+                "name": "ed - item_category",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "item_category"
+                    }
+                ],
+                "fingerprint": "1737719689091",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "411",
+                "name": "x-geo-country",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "x-geo-country"
+                    }
+                ],
+                "fingerprint": "1737719689092",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "414",
+                "name": "ed - item_name",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "item_name"
+                    }
+                ],
+                "fingerprint": "1737719689092",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "416",
+                "name": "st lookup - first_name",
+                "type": "cvt_199416058_360",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeResponse",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "lookupType",
+                        "value": "document"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentId",
+                        "value": "{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentPath",
+                        "value": "user_data.first_name"
+                    }
+                ],
+                "fingerprint": "1737719689093",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "423",
+                "name": "ed - page_location",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "page_location"
+                    }
+                ],
+                "fingerprint": "1737719689096",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "430",
+                "name": "const - Klaviyo private key",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "VALUE_HERE"
+                    }
+                ],
+                "fingerprint": "1737724235161",
+                "parentFolderId": "528",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "433",
+                "name": "ed - item_id",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "content_ids"
+                    }
+                ],
+                "fingerprint": "1737719689115",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "444",
+                "name": "ed - imageURL",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "imageURL"
+                    }
+                ],
+                "fingerprint": "1737719689158",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "445",
+                "name": "ed - SKU",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "SKU"
+                    }
+                ],
+                "fingerprint": "1737719689158",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "447",
+                "name": "Klaviyo items",
+                "type": "cvt_199416058_446",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "inside_array",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "object_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "ProductID"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - item_id}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "SKU"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - SKU}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "ProductName"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - item_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "ItemPrice"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "ImageURL"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - imageURL}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "ProductURL"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - page_location}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "item_category"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - item_category}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689161",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "499",
+                "name": "const - Klaviyo Public API Key",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "VALUE_HERE"
+                    }
+                ],
+                "fingerprint": "1737724235161",
+                "parentFolderId": "528",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "folderId": "361",
+                "name": "Stape Store",
+                "fingerprint": "1737719689017"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "folderId": "364",
+                "name": "[Stape] Triggers",
+                "fingerprint": "1737719689017"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "folderId": "371",
+                "name": "[Stape] Event Data",
+                "fingerprint": "1737719689019"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "folderId": "528",
+                "name": "[KBX] Klaviyo",
+                "fingerprint": "1737724212062"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "type": "CLIENT_NAME",
+                "name": "Client Name"
+            }
+        ],
+        "fingerprint": "1737725162907",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6246124678/containers/199416058/versions/0?apiLink=version",
+        "customTemplate": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "templateId": "360",
+                "name": "Stape Store Lookup",
+                "fingerprint": "1737719689015",
+                "templateData": "___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Stape Store Lookup\",\n  \"description\": \"The value is set to the value from a key in a Stape Store document.\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"RADIO\",\n    \"name\": \"lookupType\",\n    \"displayName\": \"Lookup Type\",\n    \"radioItems\": [\n      {\n        \"value\": \"document\",\n        \"displayValue\": \"Document Path\",\n        \"help\": \"Look up a document by specifying the document ID\"\n      },\n      {\n        \"value\": \"query\",\n        \"displayValue\": \"Query\",\n        \"help\": \"Look up a document within a store where the document meets the specified query criteria. If multiple documents are returned from the query, only the first document is used.\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"defaultValue\": \"document\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"documentId\",\n    \"displayName\": \"Document ID\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"lookupType\",\n        \"paramValue\": \"document\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"queryGroup\",\n    \"displayName\": \"Query conditions\",\n    \"groupStyle\": \"ZIPPY_OPEN\",\n    \"subParams\": [\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"queryConditions\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Field\",\n            \"name\": \"field\",\n            \"type\": \"TEXT\",\n            \"isUnique\": true\n          },\n          {\n            \"defaultValue\": \"equal\",\n            \"displayName\": \"Comparison Operator\",\n            \"name\": \"operator\",\n            \"type\": \"SELECT\",\n            \"selectItems\": [\n              {\n                \"value\": \"equal\",\n                \"displayValue\": \"\\u003d\\u003d\"\n              },\n              {\n                \"value\": \"not-equal\",\n                \"displayValue\": \"!\\u003d\"\n              },\n              {\n                \"value\": \"lt\",\n                \"displayValue\": \"Less\"\n              },\n              {\n                \"value\": \"lte\",\n                \"displayValue\": \"Less or equal\"\n              },\n              {\n                \"value\": \"gt\",\n                \"displayValue\": \"Greater\"\n              },\n              {\n                \"value\": \"gte\",\n                \"displayValue\": \"Greater or equal\"\n              },\n              {\n                \"value\": \"contains\",\n                \"displayValue\": \"Contains\"\n              },\n              {\n                \"value\": \"not-contains\",\n                \"displayValue\": \"Not Contains\"\n              }\n            ]\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ],\n        \"help\": \"\\u003ca href\\u003d\\\"https://postgrest.org/en/stable/references/api/tables_views.html#horizontal-filtering\\\"\\u003eRead more\\u003c/a\\u003e\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"lookupType\",\n        \"paramValue\": \"query\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"settings\",\n    \"groupStyle\": \"ZIPPY_OPEN\",\n    \"subParams\": [\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"documentPath\",\n        \"displayName\": \"Key Path\",\n        \"simpleValueType\": true,\n        \"help\": \"The path to the desired field within the specified document.\\n\\u003cbr\\u003e\\u003cbr\\u003e\\nFor example, if the specified document is {key1: \\u0027value1\\u0027}, then a Key Path of key1 will return value1.\"\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"storeResponse\",\n        \"checkboxText\": \"Store the result in cache\",\n        \"simpleValueType\": true,\n        \"help\": \"Store the query result in Template Storage. If the query parameters match an existing cache, the result will be retrieved from there.\"\n      }\n    ],\n    \"displayName\": \"More Settings\"\n  },\n  {\n    \"displayName\": \"Logs Settings\",\n    \"name\": \"logsGroup\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"type\": \"GROUP\",\n    \"subParams\": [\n      {\n        \"type\": \"RADIO\",\n        \"name\": \"logType\",\n        \"radioItems\": [\n          {\n            \"value\": \"no\",\n            \"displayValue\": \"Do not log\"\n          },\n          {\n            \"value\": \"debug\",\n            \"displayValue\": \"Log to console during debug and preview\"\n          },\n          {\n            \"value\": \"always\",\n            \"displayValue\": \"Always log to console\"\n          }\n        ],\n        \"simpleValueType\": true,\n        \"defaultValue\": \"debug\"\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nconst sendHttpRequest = require('sendHttpRequest');\nconst encodeUriComponent = require('encodeUriComponent');\nconst JSON = require('JSON');\nconst templateDataStorage = require('templateDataStorage');\nconst Promise = require('Promise');\nconst sha256Sync = require('sha256Sync');\nconst logToConsole = require('logToConsole');\nconst getRequestHeader = require('getRequestHeader');\nconst getContainerVersion = require('getContainerVersion');\n\nconst isLoggingEnabled = determinateIsLoggingEnabled();\nconst traceId = isLoggingEnabled ? getRequestHeader('trace-id') : undefined;\n\nreturn getResponseBody().then(mapResponse);\n\nfunction getOptions() {\n  return {method: 'POST', headers: { 'Content-Type': 'application/json' }};\n}\n\nfunction mapResponse(bodyString) {\n  const body = JSON.parse(bodyString);\n  let document = body && body.length > 0 ? body[0] : {};\n  document = document.data || {};\n\n  if (!data.documentPath) return document;\n\n  const keys = data.documentPath.trim().split('.');\n  let value = document;\n  for (let i = 0; i < keys.length; i++) {\n    const key = keys[i];\n    if (!value || !key) break;\n    value = value[key];\n  }\n\n  return value;\n}\n\nfunction getPostBody() {\n  if (data.lookupType === 'document') {\n    return {\n      key: data.documentId,\n      limit: 1\n    };\n  }\n\n  let filters = [];\n\n  for (let i = 0; i < data.queryConditions.length; i++) {\n    const condition = data.queryConditions[i];\n\n    filters.push([\n      condition.field,\n      condition.operator,\n      condition.value\n    ]);\n  }\n\n  return {\n    data: filters,\n    limit: 1\n  };\n}\n\nfunction getResponseBody() {\n  const url = getStoreUrl();\n  const options = getOptions();\n  const postBody = getPostBody();\n  const cacheKey = data.storeResponse ? sha256Sync(url + JSON.stringify(postBody)) : '';\n\n  if (data.storeResponse) {\n    const cachedValue = templateDataStorage.getItemCopy(cacheKey);\n    if (cachedValue) return Promise.create((resolve) => resolve(cachedValue));\n  }\n\n  if (isLoggingEnabled) {\n    logToConsole(\n      JSON.stringify({\n        Name: 'StapeStore',\n        Type: 'Request',\n        TraceId: traceId,\n        EventName: 'StoreRead',\n        RequestMethod: options.method,\n        RequestUrl: url,\n        RequestBody: postBody,\n      })\n    );\n  }\n  return sendHttpRequest(url, options, JSON.stringify(postBody)).then((response) => {\n    if (isLoggingEnabled) {\n      logToConsole(\n        JSON.stringify({\n          Name: 'StapeStore',\n          Type: 'Response',\n          TraceId: traceId,\n          EventName: 'StoreRead',\n          ResponseStatusCode: response.statusCode,\n          ResponseHeaders: response.headers,\n          ResponseBody: response.body,\n        })\n      );\n    }\n\n    if (data.storeResponse) templateDataStorage.setItemCopy(cacheKey, response.body);\n\n    return response.body;\n  });\n}\n\nfunction getStoreUrl() {\n  const containerIdentifier = getRequestHeader('x-gtm-identifier');\n  const defaultDomain = getRequestHeader('x-gtm-default-domain');\n  const containerApiKey = getRequestHeader('x-gtm-api-key');\n\n  return (\n    'https://' +\n    enc(containerIdentifier) +\n    '.' +\n    enc(defaultDomain) +\n    '/stape-api/' +\n    enc(containerApiKey) +\n    '/v1/store'\n  );\n}\n\nfunction determinateIsLoggingEnabled() {\n  const containerVersion = getContainerVersion();\n  const isDebug = !!(containerVersion && (containerVersion.debugMode || containerVersion.previewMode));\n\n  if (!data.logType) {\n    return isDebug;\n  }\n\n  if (data.logType === 'no') {\n    return false;\n  }\n\n  if (data.logType === 'debug') {\n    return isDebug;\n  }\n\n  return data.logType === 'always';\n}\n\nfunction enc(data) {\n  data = data || '';\n  return encodeUriComponent(data);\n}\n\n\n___SERVER_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"send_http\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedUrls\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"access_template_storage\",\n        \"versionId\": \"1\"\n      },\n      \"param\": []\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_request\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"headerWhitelist\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"trace-id\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"x-gtm-identifier\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"x-gtm-default-domain\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"x-gtm-api-key\"\n                  }\n                ]\n              }\n            ]\n          }\n        },\n        {\n          \"key\": \"headersAllowed\",\n          \"value\": {\n            \"type\": 8,\n            \"boolean\": true\n          }\n        },\n        {\n          \"key\": \"requestAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"headerAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"queryParameterAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"logging\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"environments\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"all\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_container_data\",\n        \"versionId\": \"1\"\n      },\n      \"param\": []\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 24/01/2024, 14:06:55\n\n\n"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "templateId": "424",
+                "name": "Klaviyo",
+                "fingerprint": "1737719689096",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"TAG\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Klaviyo\",\n  \"categories\": [\n    \"ANALYTICS\",\n    \"CONVERSIONS\",\n    \"MARKETING\"\n  ],\n  \"brand\": {\n    \"id\": \"github.com_stape-io\",\n    \"displayName\": \"stape-io\",\n    \"thumbnail\": \"data:image/png;base64,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\\u003d\\u003d\"\n  },\n  \"description\": \"Sends events to the Klaviyo\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"RADIO\",\n    \"name\": \"type\",\n    \"displayName\": \"Type\",\n    \"radioItems\": [\n      {\n        \"value\": \"active_on_site\",\n        \"displayValue\": \"Active on Site\"\n      },\n      {\n        \"value\": \"event\",\n        \"displayValue\": \"Event\"\n      },\n      {\n        \"value\": \"addToList\",\n        \"displayValue\": \"Add to List\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"defaultValue\": \"active_on_site\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"apiKey\",\n    \"displayName\": \"Private API Key\",\n    \"simpleValueType\": true,\n    \"help\": \"Follow this guide if you don\\u0027t know \\u003ca href\\u003d\\\"https://developers.klaviyo.com/en/docs/retrieve_api_credentials\\\" target\\u003d\\\"_blank\\\"\\u003eHow to Find your API Key\\u003c/a\\u003e\",\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"listId\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"addToList\",\n        \"type\": \"EQUALS\"\n      }\n    ],\n    \"displayName\": \"List ID\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"email\",\n    \"displayName\": \"Email\",\n    \"simpleValueType\": true,\n    \"alwaysInSummary\": false,\n    \"help\": \"Email of the user\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"phone\",\n    \"displayName\": \"Phone\",\n    \"simpleValueType\": true,\n    \"help\": \"Phone number of the user needed for SMS marketing\",\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"subscribeToMarketingSMS\",\n        \"paramValue\": true,\n        \"type\": \"EQUALS\"\n      }\n    ],\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"klaviyoUserId\",\n    \"displayName\": \"Klaviyo User ID\",\n    \"simpleValueType\": true,\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"addToList\",\n        \"type\": \"NOT_EQUALS\"\n      }\n    ],\n    \"help\": \"Primary key that uniquely identifies this profile. Generated by Klaviyo.\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"event\",\n    \"displayName\": \"Event Name\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"alwaysInSummary\": false,\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"event\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"subscribeToMarketingEmails\",\n    \"checkboxText\": \"Subscribe to marketing emails\",\n    \"simpleValueType\": true,\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"addToList\",\n        \"type\": \"EQUALS\"\n      }\n    ],\n    \"help\": \"Pass marketing consent state as SUBSCRIBED\"\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"subscribeToMarketingSMS\",\n    \"checkboxText\": \"Subscribe to marketing SMS\",\n    \"simpleValueType\": true,\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"addToList\",\n        \"type\": \"EQUALS\"\n      }\n    ],\n    \"help\": \"Pass marketing consent state as SUBSCRIBED\"\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"useOptimisticScenario\",\n    \"checkboxText\": \"Use Optimistic Scenario\",\n    \"simpleValueType\": true,\n    \"help\": \"The tag will call gtmOnSuccess() without waiting for a response from the API\"\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"storeEmail\",\n    \"checkboxText\": \"Store email in cookies\",\n    \"simpleValueType\": true,\n    \"help\": \"Allow storing the email in cookies if it is provided and use it as a fallback if it is not provided for the current event.\",\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"addToList\",\n        \"type\": \"NOT_EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"eventDataGroup\",\n    \"displayName\": \"Common Event Data Override\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"value\",\n        \"displayName\": \"Value\",\n        \"simpleValueType\": true\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"uniqueId\",\n        \"displayName\": \"Unique ID\",\n        \"simpleValueType\": true\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"customerStandardPropertiesGroup\",\n    \"displayName\": \"Customer Properties\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"customerStandardProperties\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"email\",\n            \"displayName\": \"Name\",\n            \"name\": \"name\",\n            \"type\": \"SELECT\",\n            \"isUnique\": true,\n            \"valueValidators\": [],\n            \"selectItems\": [\n              {\n                \"value\": \"email\",\n                \"displayValue\": \"Email\"\n              },\n              {\n                \"value\": \"phone_number\",\n                \"displayValue\": \"Phone Number\"\n              },\n              {\n                \"value\": \"external_id\",\n                \"displayValue\": \"External ID\"\n              },\n              {\n                \"value\": \"anonymous_id\",\n                \"displayValue\": \"Anonymous ID\"\n              },\n              {\n                \"value\": \"first_name\",\n                \"displayValue\": \"First Name\"\n              },\n              {\n                \"value\": \"last_name\",\n                \"displayValue\": \"Last Name\"\n              },\n              {\n                \"value\": \"organization\",\n                \"displayValue\": \"Organization\"\n              },\n              {\n                \"value\": \"title\",\n                \"displayValue\": \"Title\"\n              },\n              {\n                \"value\": \"image\",\n                \"displayValue\": \"Image\"\n              },\n              {\n                \"value\": \"_kx\",\n                \"displayValue\": \"_kx\"\n              }\n            ]\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ]\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"addToList\",\n        \"type\": \"NOT_EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"customerLocationPropertiesGroup\",\n    \"displayName\": \"Customer Location Properties\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"customerLocationProperties\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"address1\",\n            \"displayName\": \"Name\",\n            \"name\": \"name\",\n            \"type\": \"SELECT\",\n            \"isUnique\": true,\n            \"valueValidators\": [],\n            \"selectItems\": [\n              {\n                \"value\": \"address1\",\n                \"displayValue\": \"Address1\"\n              },\n              {\n                \"value\": \"address2\",\n                \"displayValue\": \"Address2\"\n              },\n              {\n                \"value\": \"city\",\n                \"displayValue\": \"City\"\n              },\n              {\n                \"value\": \"country\",\n                \"displayValue\": \"Country\"\n              },\n              {\n                \"value\": \"region\",\n                \"displayValue\": \"Region\"\n              },\n              {\n                \"value\": \"zip\",\n                \"displayValue\": \"Zip\"\n              },\n              {\n                \"value\": \"timezone\",\n                \"displayValue\": \"Timezone\"\n              }\n            ]\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ]\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"addToList\",\n        \"type\": \"NOT_EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"customerCustomPropertiesGroup\",\n    \"displayName\": \"Customer Custom Properties\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"customerProperties\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Name\",\n            \"name\": \"name\",\n            \"type\": \"TEXT\",\n            \"isUnique\": true\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ]\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"addToList\",\n        \"type\": \"NOT_EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"propertiesGroup\",\n    \"displayName\": \"Event Properties\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"properties\",\n        \"displayName\": \"\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Name\",\n            \"name\": \"name\",\n            \"type\": \"TEXT\",\n            \"isUnique\": true\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ]\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"addToList\",\n        \"type\": \"NOT_EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"propertyForwarding\",\n    \"displayName\": \"Event data forwarding\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"forwardAllProperties\",\n        \"checkboxText\": \"Forward all GTM event data to Klaviyo as properties\",\n        \"simpleValueType\": true\n      },\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"excludeForwardingProperties\",\n        \"displayName\": \"Exclude these properties from forwarding\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Name\",\n            \"name\": \"name\",\n            \"type\": \"TEXT\"\n          }\n        ],\n        \"enablingConditions\": [\n          {\n            \"paramName\": \"forwardAllProperties\",\n            \"paramValue\": true,\n            \"type\": \"EQUALS\"\n          }\n        ]\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"event\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"displayName\": \"Logs Settings\",\n    \"name\": \"logsGroup\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"type\": \"GROUP\",\n    \"subParams\": [\n      {\n        \"type\": \"RADIO\",\n        \"name\": \"logType\",\n        \"radioItems\": [\n          {\n            \"value\": \"no\",\n            \"displayValue\": \"Do not log\"\n          },\n          {\n            \"value\": \"debug\",\n            \"displayValue\": \"Log to console during debug and preview\"\n          },\n          {\n            \"value\": \"always\",\n            \"displayValue\": \"Always log to console\"\n          }\n        ],\n        \"simpleValueType\": true,\n        \"defaultValue\": \"debug\"\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nconst sendHttpRequest = require('sendHttpRequest');\nconst getAllEventData = require('getAllEventData');\nconst makeInteger = require('makeInteger');\nconst makeString = require('makeString');\nconst getTimestampMillis = require('getTimestampMillis');\nconst JSON = require('JSON');\nconst getRemoteAddress = require('getRemoteAddress');\nconst getCookieValues = require('getCookieValues');\nconst setCookie = require('setCookie');\nconst decodeUriComponent = require('decodeUriComponent');\nconst getContainerVersion = require('getContainerVersion');\nconst logToConsole = require('logToConsole');\nconst getRequestHeader = require('getRequestHeader');\n\nconst eventPropertiesToIgnore = [\n  'x-ga-protocol_version',\n  'x-ga-measurement_id',\n  'x-ga-gtm_version',\n  'x-ga-page_id',\n  'x-ga-system_properties',\n  'client_id',\n  'language',\n  'x-ga-request_count',\n  'ga_session_id',\n  'ga_session_number',\n  'x-ga-mp2-seg',\n  'page_location',\n  'page_referrer',\n  'page_title',\n  'ip_override',\n  'user_agent',\n  'x-ga-js_client_id',\n  'screen_resolution',\n  'x-ga-mp2-user_properties'\n];\n\nconst isLoggingEnabled = determinateIsLoggingEnabled();\nconst traceId = isLoggingEnabled ? getRequestHeader('trace-id') : undefined;\n\nconst eventData = getAllEventData();\nconst klaviyoApiRevision = '2024-06-15';\n\nif (data.type === 'addToList') {\n  addToList();\n} else {\n  sendEvent();\n}\n\nfunction sendEvent() {\n  let eventName = data.type === 'active_on_site' ? '__activity__' : data.event;\n  let eventNameLogs = data.type === 'active_on_site' ? 'page_view' : data.event;\n\n  let klaviyoEventData = getKlaviyoEventData(eventName);\n\n  if (!hasUserIdentificationData(klaviyoEventData)) {\n    return data.gtmOnSuccess();\n  }\n  let url = 'https://a.klaviyo.com/api/events/';\n\n  if (isLoggingEnabled) {\n    logToConsole(\n      JSON.stringify({\n        Name: 'Klaviyo',\n        Type: 'Request',\n        TraceId: traceId,\n        EventName: eventNameLogs,\n        RequestMethod: 'POST',\n        RequestUrl: url,\n        RequestBody: klaviyoEventData\n      })\n    );\n  }\n\n  sendHttpRequest(\n    url,\n    (statusCode, headers, body) => {\n      logToConsole(\n        JSON.stringify({\n          Name: 'Klaviyo',\n          Type: 'Response',\n          TraceId: traceId,\n          EventName: eventNameLogs,\n          ResponseStatusCode: statusCode,\n          ResponseHeaders: headers,\n          ResponseBody: body\n        })\n      );\n\n      if (!data.useOptimisticScenario) {\n        if (statusCode >= 200 && statusCode < 300) {\n          data.gtmOnSuccess();\n        } else {\n          data.gtmOnFailure();\n        }\n      }\n    },\n    {\n      headers: {\n        'X-Forwarded-For': eventData.ip_override || getRemoteAddress(),\n        'Content-Type': 'application/json',\n        Accept: 'application/json',\n        Revision: klaviyoApiRevision,\n        Authorization: 'Klaviyo-API-Key ' + data.apiKey\n      },\n      method: 'POST'\n    },\n    JSON.stringify(klaviyoEventData)\n  );\n\n  if (data.useOptimisticScenario) {\n    data.gtmOnSuccess();\n  }\n}\n\nfunction getKlaviyoEventData(eventName) {\n  return {\n    data: {\n      type: 'event',\n      attributes: getAttributes(eventName)\n    }\n  };\n}\n\nfunction getAttributes(eventName) {\n  const attributes = {\n    properties: getProperties(eventName),\n    metric: {\n      data: {\n        type: 'metric',\n        attributes: {\n          name: eventName\n        }\n      }\n    },\n    profile: {\n      data: getProfileData()\n    }\n  };\n\n  const uniqueId = data.uniqueId || eventData.unique_id;\n  if (uniqueId) attributes.unique_id = uniqueId;\n\n  const value = data.value || eventData.value;\n  if (value) attributes.value = value;\n\n  return attributes;\n}\n\nfunction getProfileData() {\n  const profileData = {\n    type: 'profile',\n    attributes: getCustomerProperties()\n  };\n  if (data.klaviyoUserId) {\n    profileData.id = data.klaviyoUserId;\n  }\n  return profileData;\n}\n\nfunction getProperties(eventName) {\n  let klaviyoProperties = {};\n\n  if (data.forwardAllProperties) {\n    let excludeKeys = [];\n    if (data.excludeForwardingProperties)\n      excludeKeys = data.excludeForwardingProperties.map((n) => n.name);\n\n    for (let key in eventData) {\n      const shouldIgnore = hasItem(eventPropertiesToIgnore, key);\n      const shouldExclude = hasItem(excludeKeys, key);\n\n      if (!shouldIgnore && !shouldExclude) {\n        klaviyoProperties[key] = eventData[key];\n      }\n    }\n  }\n\n  if (eventData.page_location) {\n    klaviyoProperties.page = eventData.page_location;\n  }\n\n  if (data.type === 'active_on_site') {\n    klaviyoProperties['$is_session_activity'] = 'true';\n    klaviyoProperties['$use_ip'] = 'true';\n  }\n\n  if (data.properties) {\n    for (let key in data.properties) {\n      klaviyoProperties[data.properties[key].name] = data.properties[key].value;\n    }\n  }\n\n  if (eventName === 'Viewed Product') {\n    let viewedItems = getViewedItems();\n\n    if (viewedItems.length) {\n      klaviyoProperties['$viewed_items'] = viewedItems;\n    }\n  }\n\n  return klaviyoProperties;\n}\n\nfunction getCustomerProperties() {\n  let customerProperties = {\n    properties: {}\n  };\n\n  if (data.email) customerProperties.email = data.email;\n  else if (eventData.email) customerProperties.email = eventData.email;\n  else if (data.storeEmail) {\n    let emailCookie = getCookieValues('stape_klaviyo_email');\n    if (emailCookie.length) customerProperties.email = emailCookie[0];\n  }\n\n  let url = eventData.page_location;\n  if (url && url.indexOf('_kx=') !== -1) {\n    let kx = url.split('_kx=')[1].split('&')[0];\n    if (kx) customerProperties['_kx'] = decodeUriComponent(kx);\n  } else {\n    let kxCookie = getCookieValues('stape_klaviyo_kx');\n    if (kxCookie.length) customerProperties['_kx'] = kxCookie[0];\n  }\n\n  if (eventData.page_referrer)\n    customerProperties.properties['$last_referrer'] = eventData.page_referrer;\n\n  if (data.customerStandardProperties) {\n    for (let key in data.customerStandardProperties) {\n      customerProperties[data.customerStandardProperties[key].name] =\n        data.customerStandardProperties[key].value;\n    }\n  }\n\n  if (data.customerLocationProperties) {\n    customerProperties.location = {};\n\n    for (let key in data.customerLocationProperties) {\n      customerProperties.location[data.customerLocationProperties[key].name] =\n        data.customerLocationProperties[key].value;\n    }\n  }\n\n  if (data.customerProperties) {\n    for (let key in data.customerProperties) {\n      customerProperties.properties[data.customerProperties[key].name] =\n        data.customerProperties[key].value;\n    }\n  }\n\n  if (customerProperties.email && data.storeEmail) {\n    storeCookie('email', customerProperties.email);\n  }\n\n  if (customerProperties['_kx']) {\n    storeCookie('kx', customerProperties['_kx']);\n  }\n\n  return customerProperties;\n}\n\nfunction storeCookie(name, value) {\n  setCookie('stape_klaviyo_' + name, value, {\n    domain: 'auto',\n    path: '/',\n    samesite: 'Lax',\n    secure: true,\n    'max-age': 63072000, // 2 years\n    httpOnly: false\n  });\n}\n\nfunction getViewedItems() {\n  let viewedItems = [];\n  let viewedItemsCookie = getCookieValues('stape_klaviyo_viewed_items');\n\n  if (viewedItemsCookie.length && viewedItemsCookie[0]) {\n    viewedItems = JSON.parse(viewedItemsCookie[0]);\n  }\n\n  if (eventData.ItemId && eventData.Title) {\n    viewedItems = updateViewedItems(viewedItems);\n  }\n\n  if (viewedItems.length) {\n    viewedItems = viewedItems.slice(-5);\n\n    storeCookie('viewed_items', JSON.stringify(viewedItems));\n  }\n\n  return viewedItems;\n}\n\nfunction updateViewedItems(viewedItems) {\n  for (let key in viewedItems) {\n    if (\n      viewedItems[key].ItemId &&\n      makeString(viewedItems[key].ItemId) === eventData.ItemId\n    ) {\n      viewedItems[key].Views = makeInteger(viewedItems[key].Views) + 1;\n\n      return viewedItems;\n    }\n  }\n\n  viewedItems.push({\n    Title: eventData.Title,\n    ItemId: eventData.ItemId,\n    Categories: eventData.Categories || [eventData.category],\n    ImageUrl: eventData.ImageUrl,\n    Url: eventData.Url || eventData.page_location,\n    Metadata: {\n      Brand: eventData.Brand || eventData.brand,\n      Price: eventData.Price || eventData.price,\n      CompareAtPrice: eventData.CompareAtPrice\n    },\n    Views: 1,\n    LastViewedDate: makeInteger(getTimestampMillis() / 1000)\n  });\n\n  return viewedItems;\n}\n\nfunction determinateIsLoggingEnabled() {\n  const containerVersion = getContainerVersion();\n  const isDebug = !!(\n    containerVersion &&\n    (containerVersion.debugMode || containerVersion.previewMode)\n  );\n\n  if (!data.logType) {\n    return isDebug;\n  }\n\n  if (data.logType === 'no') {\n    return false;\n  }\n\n  if (data.logType === 'debug') {\n    return isDebug;\n  }\n\n  return data.logType === 'always';\n}\n\nfunction addToList() {\n  let url = 'https://a.klaviyo.com/api/profile-subscription-bulk-create-jobs/';\n\n  let addToListData = {\n    data: {\n      type: 'profile-subscription-bulk-create-job',\n      attributes: {\n        profiles: {\n          data: [\n            {\n              type: 'profile',\n              attributes: {\n                email: data.email\n              }\n            }\n          ]\n        }\n      },\n      relationships: {\n        list: {\n          data: {\n            type: 'list',\n            id: data.listId\n          }\n        }\n      }\n    }\n  };\n  \n  let subscriptions = {};\n  if (data.subscribeToMarketingEmails) {\n    subscriptions.email = {\n      marketing: {\n        consent: 'SUBSCRIBED'\n      }\n    };\n  }\n  if (data.subscribeToMarketingSMS) {\n    subscriptions.sms = {\n      marketing: {\n        consent: 'SUBSCRIBED'\n      }\n    };\n    let phone = '';\n    if(data.phone) {\n      phone = data.phone;\n    }\n    addToListData.data.attributes.profiles.data[0].attributes.phone_number = phone;\n  }\n  addToListData.data.attributes.profiles.data[0].attributes.subscriptions = subscriptions;\n\n  if (isLoggingEnabled) {\n    logToConsole(\n      JSON.stringify({\n        Name: 'Klaviyo',\n        Type: 'Request',\n        TraceId: traceId,\n        EventName: 'add_to_list',\n        RequestMethod: 'POST',\n        RequestUrl: url,\n        RequestBody: addToListData\n      })\n    );\n  }\n\n  sendHttpRequest(\n    url,\n    (statusCode, headers, body) => {\n      logToConsole(\n        JSON.stringify({\n          Name: 'Klaviyo',\n          Type: 'Response',\n          TraceId: traceId,\n          EventName: 'add_to_list',\n          ResponseStatusCode: statusCode,\n          ResponseHeaders: headers,\n          ResponseBody: body\n        })\n      );\n\n      if (!data.useOptimisticScenario) {\n        if (statusCode >= 200 && statusCode < 300) {\n          data.gtmOnSuccess();\n        } else {\n          data.gtmOnFailure();\n        }\n      }\n    },\n    {\n      headers: {\n        'X-Forwarded-For': getRemoteAddress(),\n        'Content-Type': 'application/json',\n        Accept: 'application/json',\n        Revision: klaviyoApiRevision,\n        Authorization: 'Klaviyo-API-Key ' + data.apiKey\n      },\n      method: 'POST'\n    },\n    JSON.stringify(addToListData)\n  );\n\n  if (data.useOptimisticScenario) {\n    data.gtmOnSuccess();\n  }\n}\n\nfunction hasItem(arr, item) {\n  for (let k in arr) {\n    if (arr[k] === item) return true;\n  }\n\n  return false;\n}\n\nfunction hasUserIdentificationData(klaviyoEventData) {\n  const profileData = klaviyoEventData.data.attributes.profile.data;\n  return (\n    !!profileData.id ||\n    !!profileData.attributes.email ||\n    !!profileData.attributes._kx ||\n    !!profileData.attributes.external_id\n  );\n}\n\n\n___SERVER_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_event_data\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"eventDataAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"send_http\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedUrls\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"urls\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"https://a.klaviyo.com/*\"\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"logging\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"environments\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"all\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_container_data\",\n        \"versionId\": \"1\"\n      },\n      \"param\": []\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_request\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"remoteAddressAllowed\",\n          \"value\": {\n            \"type\": 8,\n            \"boolean\": true\n          }\n        },\n        {\n          \"key\": \"headersAllowed\",\n          \"value\": {\n            \"type\": 8,\n            \"boolean\": true\n          }\n        },\n        {\n          \"key\": \"requestAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"headerAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        },\n        {\n          \"key\": \"queryParameterAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"get_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"cookieAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"cookieNames\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"stape_klaviyo_email\"\n              },\n              {\n                \"type\": 1,\n                \"string\": \"stape_klaviyo_kx\"\n              },\n              {\n                \"type\": 1,\n                \"string\": \"stape_klaviyo_viewed_items\"\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"set_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedCookies\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"stape_klaviyo_email\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"stape_klaviyo_kx\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"stape_klaviyo_viewed_items\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 27/03/2021, 22:13:33\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "stape-io",
+                    "repository": "klaviyo-tag",
+                    "version": "c23350035e89fd29a734c3246c4cfd12f3739eab",
+                    "signature": "20c3814eae0d0ac6d8e9b12913bceafb804080e913ba897774d0b9781d38f56f"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "templateId": "446",
+                "name": "Object Builder",
+                "fingerprint": "1737719689158",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Object Builder\",\n  \"description\": \"Provides an interface for building objects.\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ],\n  \"brand\": {\n    \"displayName\": \"stape-io\",\n    \"id\": \"github.com_stape-io\"\n  }\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"inside_array\",\n    \"checkboxText\": \"Put object inside array\",\n    \"simpleValueType\": true,\n    \"help\": \"If checked built object will be put inside the array.\"\n  },\n  {\n    \"type\": \"LABEL\",\n    \"name\": \"start\",\n    \"displayName\": \"{\"\n  },\n  {\n    \"type\": \"SIMPLE_TABLE\",\n    \"name\": \"object_data\",\n    \"simpleTableColumns\": [\n      {\n        \"defaultValue\": \"\",\n        \"displayName\": \"Property\",\n        \"name\": \"property\",\n        \"type\": \"TEXT\"\n      },\n      {\n        \"defaultValue\": \"\",\n        \"displayName\": \"Value\",\n        \"name\": \"value\",\n        \"type\": \"TEXT\"\n      }\n    ]\n  },\n  {\n    \"type\": \"LABEL\",\n    \"name\": \"end\",\n    \"displayName\": \"}\"\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nconst makeTableMap = require('makeTableMap');\n\nif (!data.object_data) {\n  if (data.inside_array) {\n    return [{}];\n  }\n  \n  return {};\n}\n\nlet object = makeTableMap(data.object_data, 'property', 'value');\n\nif (data.inside_array) {\n  return [object];\n}\n\nreturn object;\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 30/09/2021, 18:10:20\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "stape-io",
+                    "repository": "object-builder-variable",
+                    "version": "51fc9df8d224fb6896242046b2e8c6809f4f3686",
+                    "signature": "0185a8667a00f685529dde2e6caf5a0e276f06cf284d45860d3f29046e22d110"
+                }
+            }
+        ]
+    }
+}

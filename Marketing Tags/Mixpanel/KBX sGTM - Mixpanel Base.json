@@ -1,0 +1,2875 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-01-24 13:06:37",
+    "containerVersion": {
+        "path": "accounts/6246124678/containers/199416058/versions/0",
+        "accountId": "6246124678",
+        "containerId": "199416058",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6246124678/containers/199416058",
+            "accountId": "6246124678",
+            "containerId": "199416058",
+            "name": "Test Store sGTM",
+            "publicId": "GTM-52QR9J4Q",
+            "usageContext": [
+                "SERVER"
+            ],
+            "fingerprint": "1737112978743",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6246124678/containers/199416058/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": true,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": true
+            },
+            "tagIds": [
+                "GTM-52QR9J4Q"
+            ],
+            "taggingServerUrls": [
+                "https://rojmddkd.euq.stape.net"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "459",
+                "name": "[KBX] MP - add to cart",
+                "type": "cvt_199416058_435",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "serverEU",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifyCustom",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackCommonData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackList",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "contents"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{ed - contents}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{obj - ecomm.Items}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "identifyAuto",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackName",
+                        "value": "Add to Cart"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "track"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "content_ids"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - content_ids}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "$price"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "currency"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - currency}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "num_items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - num_items}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "token",
+                        "value": "{{const - Mixpanel Project ID}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackFromVariable",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737719689170",
+                "firingTriggerId": [
+                    "428"
+                ],
+                "parentFolderId": "439",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "471",
+                "name": "[KBX] MP - page_view",
+                "type": "cvt_199416058_435",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "serverEU",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifyCustom",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackCommonData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "identifyAuto",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackName",
+                        "value": "Page View"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "track"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "page_title"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - page_title}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "page_referrer"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - page_referrer}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "token",
+                        "value": "{{const - Mixpanel Project ID}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackFromVariable",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737719689172",
+                "firingTriggerId": [
+                    "434"
+                ],
+                "parentFolderId": "439",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "484",
+                "name": "[KBX] MP - set",
+                "type": "cvt_199416058_435",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "serverEU",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifyCustom",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "identifyAuto",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "userPropertiesTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$first name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - first_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$last name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - last_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$email"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - email_address}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$phone number"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - phone_number}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$country"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - country}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$city"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - city}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$post Code"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - postal_code}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$utm campaign"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{sGTM - utm_campaign}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$utm medium"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{sGTM - utm_medium}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$utm source"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{sGTM - utm_source}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "userProperty",
+                                        "value": "$utm term"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{sGTM - utm_term}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "profile-set"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "token",
+                        "value": "{{const - Mixpanel Project ID}}"
+                    }
+                ],
+                "fingerprint": "1737719689229",
+                "firingTriggerId": [
+                    "455"
+                ],
+                "parentFolderId": "439",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "492",
+                "name": "[KBX] MP - View Item",
+                "type": "cvt_199416058_435",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "serverEU",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifyCustom",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackCommonData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackList",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "contents"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{ed - contents}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{obj - ecomm.Items}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "identifyAuto",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackName",
+                        "value": "View Item"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "track"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "content_ids"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - content_ids}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "price"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "currency"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - currency}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "num_items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - num_items}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "item_category"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - item_category}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "item_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - item_name}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "token",
+                        "value": "{{const - Mixpanel Project ID}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackFromVariable",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737719689231",
+                "firingTriggerId": [
+                    "427"
+                ],
+                "parentFolderId": "439",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "497",
+                "name": "[KBX] MP - purchase",
+                "type": "cvt_199416058_435",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "serverEU",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifyCustom",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackCommonData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackList",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "contents"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{ed - contents}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{obj - ecomm.Items}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "identifyAuto",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackName",
+                        "value": "Purchase"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "track"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "content_ids"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - content_ids}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "price"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "currency"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - currency}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "num_items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - num_items}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "order_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - transaction_id}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "token",
+                        "value": "{{const - Mixpanel Project ID}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackFromVariable",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737719689234",
+                "firingTriggerId": [
+                    "455"
+                ],
+                "parentFolderId": "439",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "510",
+                "name": "[KBX] MP - Identify",
+                "type": "cvt_199416058_435",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "serverEU",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifier",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifyCustom",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "identifyAuto",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "identify"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "token",
+                        "value": "{{const - Mixpanel Project ID}}"
+                    }
+                ],
+                "fingerprint": "1737719689272",
+                "firingTriggerId": [
+                    "2147479574"
+                ],
+                "parentFolderId": "439",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "511",
+                "name": "[KBX] MP - Begin Checkout",
+                "type": "cvt_199416058_435",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "serverEU",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifyCustom",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackCommonData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackList",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "contents"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{ed - contents}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{obj - ecomm.Items}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "identifyAuto",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackName",
+                        "value": "Begin Checkout"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "track"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "content_ids"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - content_ids}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "price"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "currency"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - currency}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "num_items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - num_items}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "token",
+                        "value": "{{const - Mixpanel Project ID}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackFromVariable",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737719689272",
+                "firingTriggerId": [
+                    "384"
+                ],
+                "parentFolderId": "439",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "513",
+                "name": "[KBX] MP - search",
+                "type": "cvt_199416058_435",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "serverEU",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifyCustom",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackCommonData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "identifyAuto",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackName",
+                        "value": "Search"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "track"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackParametersObject",
+                        "value": "{{obj - user defined data}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "search_string"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - search_string}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "token",
+                        "value": "{{const - Mixpanel Project ID}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackFromVariable",
+                        "value": "true"
+                    }
+                ],
+                "fingerprint": "1737719689273",
+                "firingTriggerId": [
+                    "417"
+                ],
+                "parentFolderId": "439",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "tagId": "527",
+                "name": "[KBX] MP - New Customer Purchase",
+                "type": "cvt_199416058_435",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "serverEU",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "identifyCustom",
+                        "value": "$device:{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackCommonData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackList",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "contents"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{ed - contents}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listName",
+                                        "value": "items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "listValues",
+                                        "value": "{{obj - ecomm.Items}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "identifyAuto",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackName",
+                        "value": "New Customer Purchase"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "type",
+                        "value": "track"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "trackParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "content_ids"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - content_ids}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "price"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "currency"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - currency}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "num_items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - num_items}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "order_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{ed - transaction_id}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "token",
+                        "value": "{{const - Mixpanel Project ID}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "trackFromVariable",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737723807329",
+                "firingTriggerId": [
+                    "464"
+                ],
+                "parentFolderId": "439",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "384",
+                "name": "dc - begin_checkout",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "begin_checkout"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689024",
+                "parentFolderId": "364"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "417",
+                "name": "dc - search",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "search"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689093",
+                "parentFolderId": "364"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "427",
+                "name": "dc - view_item",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "view_item"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689114",
+                "parentFolderId": "364"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "428",
+                "name": "dc - add_to_cart",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "add_to_cart"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689114",
+                "parentFolderId": "364"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "434",
+                "name": "dc - page_view",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "page_view"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689115",
+                "parentFolderId": "364"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "455",
+                "name": "dc - purchase",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689164",
+                "parentFolderId": "364"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "triggerId": "464",
+                "name": "dc - new_customer_purchase",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "new_customer_purchase"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Data Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689171",
+                "parentFolderId": "364"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "362",
+                "name": "x-stape-user-id",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "x-stape-user-id"
+                    }
+                ],
+                "fingerprint": "1737719689017",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "363",
+                "name": "st lookup - last_name",
+                "type": "cvt_199416058_360",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeResponse",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "lookupType",
+                        "value": "document"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentId",
+                        "value": "{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentPath",
+                        "value": "user_data.last_name"
+                    }
+                ],
+                "fingerprint": "1737719689017",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "372",
+                "name": "ed - email_address",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "email_address"
+                    }
+                ],
+                "fingerprint": "1737719689019",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "373",
+                "name": "st lookup - email",
+                "type": "cvt_199416058_360",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeResponse",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "lookupType",
+                        "value": "document"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentId",
+                        "value": "{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentPath",
+                        "value": "user_data.email"
+                    }
+                ],
+                "fingerprint": "1737719689019",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "375",
+                "name": "LT - email",
+                "type": "cvt_199416058_374",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{ed - email_address}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "table",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "inputOne",
+                                        "value": "{{ed - email_address}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "rule",
+                                        "value": "matchesRegExIgnoreCase"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "inputTwo",
+                                        "value": "^(null|undefined)$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "output",
+                                        "value": "{{st lookup - email}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689023",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "376",
+                "name": "ed - last_name",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "last_name"
+                    }
+                ],
+                "fingerprint": "1737719689023",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "377",
+                "name": "LT - last_name",
+                "type": "cvt_199416058_374",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{ed - last_name}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "table",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "inputOne",
+                                        "value": "{{ed - last_name}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "rule",
+                                        "value": "matchesRegExIgnoreCase"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "inputTwo",
+                                        "value": "^(null|undefined)$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "output",
+                                        "value": "{{st lookup - last_name}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689023",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "379",
+                "name": "ed - first_name",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "first_name"
+                    }
+                ],
+                "fingerprint": "1737719689024",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "380",
+                "name": "ed - postal_code",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "postal_code"
+                    }
+                ],
+                "fingerprint": "1737719689024",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "381",
+                "name": "ed - num_items",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "num_items"
+                    }
+                ],
+                "fingerprint": "1737719689024",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "383",
+                "name": "ed - contents",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "contents"
+                    }
+                ],
+                "fingerprint": "1737719689024",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "387",
+                "name": "ed - currency",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "currency"
+                    }
+                ],
+                "fingerprint": "1737719689025",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "394",
+                "name": "ed - country",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "country"
+                    }
+                ],
+                "fingerprint": "1737719689088",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "395",
+                "name": "ed - phone_number",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "phone_number"
+                    }
+                ],
+                "fingerprint": "1737719689089",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "397",
+                "name": "ed - city",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "city"
+                    }
+                ],
+                "fingerprint": "1737719689089",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "398",
+                "name": "ed - value",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "value"
+                    }
+                ],
+                "fingerprint": "1737719689089",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "400",
+                "name": "ed - content_ids",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "content_ids"
+                    }
+                ],
+                "fingerprint": "1737719689089",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "407",
+                "name": "ed - item_category",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "item_category"
+                    }
+                ],
+                "fingerprint": "1737719689091",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "408",
+                "name": "ed - transaction_id",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "transaction_id"
+                    }
+                ],
+                "fingerprint": "1737719689092",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "410",
+                "name": "st lookup - phone_number",
+                "type": "cvt_199416058_360",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeResponse",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "lookupType",
+                        "value": "document"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentId",
+                        "value": "{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentPath",
+                        "value": "user_data.phone"
+                    }
+                ],
+                "fingerprint": "1737719689092",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "414",
+                "name": "ed - item_name",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "item_name"
+                    }
+                ],
+                "fingerprint": "1737719689092",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "415",
+                "name": "ed - search_string",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "search_string"
+                    }
+                ],
+                "fingerprint": "1737719689093",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "416",
+                "name": "st lookup - first_name",
+                "type": "cvt_199416058_360",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "logType",
+                        "value": "debug"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "storeResponse",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "lookupType",
+                        "value": "document"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentId",
+                        "value": "{{x-stape-user-id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "documentPath",
+                        "value": "user_data.first_name"
+                    }
+                ],
+                "fingerprint": "1737719689093",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "425",
+                "name": "ed - page_title",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "page_title"
+                    }
+                ],
+                "fingerprint": "1737719689112",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "437",
+                "name": "ed - ecommerce",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "ecommerce"
+                    }
+                ],
+                "fingerprint": "1737719689130",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "438",
+                "name": "obj - ecomm.Items",
+                "type": "cvt_199416058_436",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "object_property",
+                        "value": "items"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "object_var",
+                        "value": "{{ed - ecommerce}}"
+                    }
+                ],
+                "fingerprint": "1737719689131",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "441",
+                "name": "const - Mixpanel Project ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "VALUE_HERE"
+                    }
+                ],
+                "fingerprint": "1737719766737",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "463",
+                "name": "sGTM - utm_source",
+                "type": "cvt_199416058_456",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "componentType",
+                        "value": "query"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "queryKey",
+                        "value": "utm_source"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "urlSource",
+                        "value": "default_page_location"
+                    }
+                ],
+                "fingerprint": "1737719689171",
+                "parentFolderId": "431",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "470",
+                "name": "ed - page_referrer",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "page_referrer"
+                    }
+                ],
+                "fingerprint": "1737719689172",
+                "parentFolderId": "371",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "476",
+                "name": "LT - phone_number",
+                "type": "cvt_199416058_374",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{st lookup - phone_number}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "table",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "inputOne",
+                                        "value": "{{ed - phone_number}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "rule",
+                                        "value": "matchesRegExIgnoreCase"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "inputTwo",
+                                        "value": "^(null|undefined)$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "output",
+                                        "value": "{{st lookup - phone_number}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689227",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "477",
+                "name": "LT - first_name",
+                "type": "cvt_199416058_374",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{ed - first_name}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "table",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "inputOne",
+                                        "value": "{{ed - first_name}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "rule",
+                                        "value": "matchesRegExIgnoreCase"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "inputTwo",
+                                        "value": "^(null|undefined)$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "output",
+                                        "value": "{{st lookup - first_name}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689228",
+                "parentFolderId": "361",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "478",
+                "name": "obj - user defined data",
+                "type": "cvt_199416058_446",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "inside_array",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "object_data",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "first_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{LT - first_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "last_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{LT - last_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "email"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{LT - email}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "property",
+                                        "value": "phone_number"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{LT - phone_number}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737719689228",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "481",
+                "name": "sGTM - utm_medium",
+                "type": "cvt_199416058_456",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "componentType",
+                        "value": "query"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "queryKey",
+                        "value": "utm_medium"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "urlSource",
+                        "value": "default_page_location"
+                    }
+                ],
+                "fingerprint": "1737719689228",
+                "parentFolderId": "431",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "482",
+                "name": "sGTM - utm_campaign",
+                "type": "cvt_199416058_456",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "componentType",
+                        "value": "query"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "queryKey",
+                        "value": "utm_campaign"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "urlSource",
+                        "value": "default_page_location"
+                    }
+                ],
+                "fingerprint": "1737719689229",
+                "parentFolderId": "431",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "variableId": "483",
+                "name": "sGTM - utm_term",
+                "type": "cvt_199416058_456",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "componentType",
+                        "value": "query"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "queryKey",
+                        "value": "utm_term"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "urlSource",
+                        "value": "default_page_location"
+                    }
+                ],
+                "fingerprint": "1737719689229",
+                "parentFolderId": "431",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "folderId": "361",
+                "name": "Stape Store",
+                "fingerprint": "1737719689017"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "folderId": "364",
+                "name": "[Stape] Triggers",
+                "fingerprint": "1737719689017"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "folderId": "371",
+                "name": "[Stape] Event Data",
+                "fingerprint": "1737719689019"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "folderId": "431",
+                "name": "[KBX] URL Parse",
+                "fingerprint": "1737719689115"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "folderId": "439",
+                "name": "[KBX] Mixpanel",
+                "fingerprint": "1737719689131"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "type": "CLIENT_NAME",
+                "name": "Client Name"
+            }
+        ],
+        "fingerprint": "1737723997147",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6246124678/containers/199416058/versions/0?apiLink=version",
+        "customTemplate": [
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "templateId": "360",
+                "name": "Stape Store Lookup",
+                "fingerprint": "1737719689015",
+                "templateData": "___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Stape Store Lookup\",\n  \"description\": \"The value is set to the value from a key in a Stape Store document.\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"RADIO\",\n    \"name\": \"lookupType\",\n    \"displayName\": \"Lookup Type\",\n    \"radioItems\": [\n      {\n        \"value\": \"document\",\n        \"displayValue\": \"Document Path\",\n        \"help\": \"Look up a document by specifying the document ID\"\n      },\n      {\n        \"value\": \"query\",\n        \"displayValue\": \"Query\",\n        \"help\": \"Look up a document within a store where the document meets the specified query criteria. If multiple documents are returned from the query, only the first document is used.\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"defaultValue\": \"document\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"documentId\",\n    \"displayName\": \"Document ID\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"lookupType\",\n        \"paramValue\": \"document\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"queryGroup\",\n    \"displayName\": \"Query conditions\",\n    \"groupStyle\": \"ZIPPY_OPEN\",\n    \"subParams\": [\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"queryConditions\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Field\",\n            \"name\": \"field\",\n            \"type\": \"TEXT\",\n            \"isUnique\": true\n          },\n          {\n            \"defaultValue\": \"equal\",\n            \"displayName\": \"Comparison Operator\",\n            \"name\": \"operator\",\n            \"type\": \"SELECT\",\n            \"selectItems\": [\n              {\n                \"value\": \"equal\",\n                \"displayValue\": \"\\u003d\\u003d\"\n              },\n              {\n                \"value\": \"not-equal\",\n                \"displayValue\": \"!\\u003d\"\n              },\n              {\n                \"value\": \"lt\",\n                \"displayValue\": \"Less\"\n              },\n              {\n                \"value\": \"lte\",\n                \"displayValue\": \"Less or equal\"\n              },\n              {\n                \"value\": \"gt\",\n                \"displayValue\": \"Greater\"\n              },\n              {\n                \"value\": \"gte\",\n                \"displayValue\": \"Greater or equal\"\n              },\n              {\n                \"value\": \"contains\",\n                \"displayValue\": \"Contains\"\n              },\n              {\n                \"value\": \"not-contains\",\n                \"displayValue\": \"Not Contains\"\n              }\n            ]\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ],\n        \"help\": \"\\u003ca href\\u003d\\\"https://postgrest.org/en/stable/references/api/tables_views.html#horizontal-filtering\\\"\\u003eRead more\\u003c/a\\u003e\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"lookupType\",\n        \"paramValue\": \"query\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"settings\",\n    \"groupStyle\": \"ZIPPY_OPEN\",\n    \"subParams\": [\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"documentPath\",\n        \"displayName\": \"Key Path\",\n        \"simpleValueType\": true,\n        \"help\": \"The path to the desired field within the specified document.\\n\\u003cbr\\u003e\\u003cbr\\u003e\\nFor example, if the specified document is {key1: \\u0027value1\\u0027}, then a Key Path of key1 will return value1.\"\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"storeResponse\",\n        \"checkboxText\": \"Store the result in cache\",\n        \"simpleValueType\": true,\n        \"help\": \"Store the query result in Template Storage. If the query parameters match an existing cache, the result will be retrieved from there.\"\n      }\n    ],\n    \"displayName\": \"More Settings\"\n  },\n  {\n    \"displayName\": \"Logs Settings\",\n    \"name\": \"logsGroup\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"type\": \"GROUP\",\n    \"subParams\": [\n      {\n        \"type\": \"RADIO\",\n        \"name\": \"logType\",\n        \"radioItems\": [\n          {\n            \"value\": \"no\",\n            \"displayValue\": \"Do not log\"\n          },\n          {\n            \"value\": \"debug\",\n            \"displayValue\": \"Log to console during debug and preview\"\n          },\n          {\n            \"value\": \"always\",\n            \"displayValue\": \"Always log to console\"\n          }\n        ],\n        \"simpleValueType\": true,\n        \"defaultValue\": \"debug\"\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nconst sendHttpRequest = require('sendHttpRequest');\nconst encodeUriComponent = require('encodeUriComponent');\nconst JSON = require('JSON');\nconst templateDataStorage = require('templateDataStorage');\nconst Promise = require('Promise');\nconst sha256Sync = require('sha256Sync');\nconst logToConsole = require('logToConsole');\nconst getRequestHeader = require('getRequestHeader');\nconst getContainerVersion = require('getContainerVersion');\n\nconst isLoggingEnabled = determinateIsLoggingEnabled();\nconst traceId = isLoggingEnabled ? getRequestHeader('trace-id') : undefined;\n\nreturn getResponseBody().then(mapResponse);\n\nfunction getOptions() {\n  return {method: 'POST', headers: { 'Content-Type': 'application/json' }};\n}\n\nfunction mapResponse(bodyString) {\n  const body = JSON.parse(bodyString);\n  let document = body && body.length > 0 ? body[0] : {};\n  document = document.data || {};\n\n  if (!data.documentPath) return document;\n\n  const keys = data.documentPath.trim().split('.');\n  let value = document;\n  for (let i = 0; i < keys.length; i++) {\n    const key = keys[i];\n    if (!value || !key) break;\n    value = value[key];\n  }\n\n  return value;\n}\n\nfunction getPostBody() {\n  if (data.lookupType === 'document') {\n    return {\n      key: data.documentId,\n      limit: 1\n    };\n  }\n\n  let filters = [];\n\n  for (let i = 0; i < data.queryConditions.length; i++) {\n    const condition = data.queryConditions[i];\n\n    filters.push([\n      condition.field,\n      condition.operator,\n      condition.value\n    ]);\n  }\n\n  return {\n    data: filters,\n    limit: 1\n  };\n}\n\nfunction getResponseBody() {\n  const url = getStoreUrl();\n  const options = getOptions();\n  const postBody = getPostBody();\n  const cacheKey = data.storeResponse ? sha256Sync(url + JSON.stringify(postBody)) : '';\n\n  if (data.storeResponse) {\n    const cachedValue = templateDataStorage.getItemCopy(cacheKey);\n    if (cachedValue) return Promise.create((resolve) => resolve(cachedValue));\n  }\n\n  if (isLoggingEnabled) {\n    logToConsole(\n      JSON.stringify({\n        Name: 'StapeStore',\n        Type: 'Request',\n        TraceId: traceId,\n        EventName: 'StoreRead',\n        RequestMethod: options.method,\n        RequestUrl: url,\n        RequestBody: postBody,\n      })\n    );\n  }\n  return sendHttpRequest(url, options, JSON.stringify(postBody)).then((response) => {\n    if (isLoggingEnabled) {\n      logToConsole(\n        JSON.stringify({\n          Name: 'StapeStore',\n          Type: 'Response',\n          TraceId: traceId,\n          EventName: 'StoreRead',\n          ResponseStatusCode: response.statusCode,\n          ResponseHeaders: response.headers,\n          ResponseBody: response.body,\n        })\n      );\n    }\n\n    if (data.storeResponse) templateDataStorage.setItemCopy(cacheKey, response.body);\n\n    return response.body;\n  });\n}\n\nfunction getStoreUrl() {\n  const containerIdentifier = getRequestHeader('x-gtm-identifier');\n  const defaultDomain = getRequestHeader('x-gtm-default-domain');\n  const containerApiKey = getRequestHeader('x-gtm-api-key');\n\n  return (\n    'https://' +\n    enc(containerIdentifier) +\n    '.' +\n    enc(defaultDomain) +\n    '/stape-api/' +\n    enc(containerApiKey) +\n    '/v1/store'\n  );\n}\n\nfunction determinateIsLoggingEnabled() {\n  const containerVersion = getContainerVersion();\n  const isDebug = !!(containerVersion && (containerVersion.debugMode || containerVersion.previewMode));\n\n  if (!data.logType) {\n    return isDebug;\n  }\n\n  if (data.logType === 'no') {\n    return false;\n  }\n\n  if (data.logType === 'debug') {\n    return isDebug;\n  }\n\n  return data.logType === 'always';\n}\n\nfunction enc(data) {\n  data = data || '';\n  return encodeUriComponent(data);\n}\n\n\n___SERVER_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"send_http\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedUrls\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"access_template_storage\",\n        \"versionId\": \"1\"\n      },\n      \"param\": []\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_request\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"headerWhitelist\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"trace-id\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"x-gtm-identifier\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"x-gtm-default-domain\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"x-gtm-api-key\"\n                  }\n                ]\n              }\n            ]\n          }\n        },\n        {\n          \"key\": \"headersAllowed\",\n          \"value\": {\n            \"type\": 8,\n            \"boolean\": true\n          }\n        },\n        {\n          \"key\": \"requestAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"headerAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"queryParameterAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"logging\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"environments\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"all\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_container_data\",\n        \"versionId\": \"1\"\n      },\n      \"param\": []\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 24/01/2024, 14:06:55\n\n\n"
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "templateId": "374",
+                "name": "Advanced Lookup Table",
+                "fingerprint": "1737719689019",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Advanced Lookup Table\",\n  \"description\": \"Lookup table with \\\"If Then Else\\\" logic.\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ],\n  \"brand\": {\n    \"displayName\": \"stape-io\",\n    \"id\": \"github.com_stape-io\"\n  }\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"alwaysInSummary\": false,\n    \"displayName\": \"Lookup Table\",\n    \"name\": \"table\",\n    \"simpleTableColumns\": [\n      {\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ],\n        \"defaultValue\": \"\",\n        \"displayName\": \"If\",\n        \"name\": \"inputOne\",\n        \"type\": \"TEXT\"\n      },\n      {\n        \"selectItems\": [\n          {\n            \"displayValue\": \"equals\",\n            \"value\": \"equals\"\n          },\n          {\n            \"displayValue\": \"contains\",\n            \"value\": \"contains\"\n          },\n          {\n            \"displayValue\": \"starts with\",\n            \"value\": \"startsWith\"\n          },\n          {\n            \"displayValue\": \"ends with\",\n            \"value\": \"endsWith\"\n          },\n          {\n            \"displayValue\": \"matches RegEx\",\n            \"value\": \"matchesRegEx\"\n          },\n          {\n            \"displayValue\": \"matches RegEx (ignore case)\",\n            \"value\": \"matchesRegExIgnoreCase\"\n          },\n          {\n            \"displayValue\": \"does not equal\",\n            \"value\": \"doesNotEqual\"\n          },\n          {\n            \"displayValue\": \"does not contain\",\n            \"value\": \"doesNotContain\"\n          },\n          {\n            \"displayValue\": \"does not start with\",\n            \"value\": \"doesNotStartWith\"\n          },\n          {\n            \"displayValue\": \"does not end with\",\n            \"value\": \"doesNotEndWith\"\n          },\n          {\n            \"displayValue\": \"does not match RegEx\",\n            \"value\": \"doesNotMatchRegEx\"\n          },\n          {\n            \"displayValue\": \"does not match RegEx (ignore case)\",\n            \"value\": \"doesNotMatchRegExIgnoreCase\"\n          },\n          {\n            \"displayValue\": \"less than\",\n            \"value\": \"lessThan\"\n          },\n          {\n            \"displayValue\": \"less than or equal to\",\n            \"value\": \"lessThanOrEqualTo\"\n          },\n          {\n            \"displayValue\": \"greater than\",\n            \"value\": \"greaterThan\"\n          },\n          {\n            \"displayValue\": \"greater than or equal to\",\n            \"value\": \"greaterThanOrEqualTo\"\n          }\n        ],\n        \"defaultValue\": \"equals\",\n        \"displayName\": \"\",\n        \"name\": \"rule\",\n        \"type\": \"SELECT\"\n      },\n      {\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ],\n        \"defaultValue\": \"\",\n        \"displayName\": \"This\",\n        \"name\": \"inputTwo\",\n        \"isUnique\": false,\n        \"type\": \"TEXT\"\n      },\n      {\n        \"selectItems\": [],\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ],\n        \"defaultValue\": \"\",\n        \"displayName\": \"Return\",\n        \"name\": \"output\",\n        \"type\": \"TEXT\"\n      }\n    ],\n    \"type\": \"SIMPLE_TABLE\",\n    \"newRowButtonText\": \"+Add row\"\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"setDefaultValue\",\n    \"checkboxText\": \"Set Default Value\",\n    \"simpleValueType\": true,\n    \"help\": \"Explicitly set the value of this variable when no match is found in the lookup table.\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"defaultValue\",\n    \"displayName\": \"Default Value\",\n    \"simpleValueType\": true,\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"setDefaultValue\",\n        \"paramValue\": true,\n        \"type\": \"EQUALS\"\n      }\n    ],\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nif (data.table && data.table.length) for (let i = 0; i < data.table.length; i++) {\n    const row = data.table[i];\n    const inputOne = normalize(row.inputOne);\n    const inputTwo = normalize(row.inputTwo);\n\n    if (row.rule === 'equals' && inputOne == inputTwo) return row.output;\n    if (row.rule === 'contains' && (inputOne.indexOf(inputTwo) > -1)) return row.output;\n    if (row.rule === 'startsWith' && inputOne.match('^(' + inputTwo + ')')) return row.output;\n    if (row.rule === 'endsWith' && inputOne.match('(' + inputTwo + ')$')) return row.output;\n    if (row.rule === 'matchesRegEx' && inputOne.match(inputTwo)) return row.output;\n    if (row.rule === 'matchesRegExIgnoreCase' && inputOne.toLowerCase().match(inputTwo.toLowerCase())) return row.output;\n    if (row.rule === 'doesNotEqual' && inputOne != inputTwo) return row.output;\n    if (row.rule === 'doesNotContain' && (inputOne.indexOf(inputTwo) == -1)) return row.output;\n    if (row.rule === 'doesNotStartWith' && !inputOne.match('^(' + inputTwo + ')')) return row.output;\n    if (row.rule === 'doesNotEndWith' && !inputOne.match('(' + inputTwo + ')$')) return row.output;\n    if (row.rule === 'doesNotMatchRegEx' && !inputOne.match(inputTwo)) return row.output;\n    if (row.rule === 'doesNotMatchRegExIgnoreCase' && !inputOne.toLowerCase().match(inputTwo.toLowerCase())) return row.output;\n    if (row.rule === 'lessThan' && inputOne < inputTwo) return row.output;\n    if (row.rule === 'lessThanOrEqualTo' && inputOne <= inputTwo) return row.output;\n    if (row.rule === 'greaterThan' && inputOne > inputTwo) return row.output;\n    if (row.rule === 'greaterThanOrEqualTo' && inputOne >= inputTwo) return row.output;\n}\n\nreturn data.setDefaultValue ? data.defaultValue : undefined;\n\n\nfunction normalize(value)\n{\n    if ((typeof value) === 'undefined') return 'undefined';\n    if ((typeof value) === 'boolean') return value ? 'true' : 'false';\n\n    return value;\n}\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 22/04/2022, 19:59:53\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "stape-io",
+                    "repository": "advanced-lookup-table-variable",
+                    "version": "0b9068dc98476b7a7eaae50e8bf99740daaf771f",
+                    "signature": "0aa9edc2861fbe15dd09f26c5f6fcba9f42313c15582111857eca3c88fc7209a"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "templateId": "435",
+                "name": "Mixpanel",
+                "fingerprint": "1737719689115",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"TAG\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Mixpanel\",\n  \"brand\": {\n    \"id\": \"github.com_stape-io\",\n    \"displayName\": \"stape-io\",\n    \"thumbnail\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAYKADAAQAAAABAAAAYAAAAAC77nFQAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAAGvklEQVR4Ae2aW2wUVRjHvzPTQotiBVQIcscIEiBGor4RHtSQGCBAtsUbGl8AhUQSQ7k9bCKm3BIwGKKoUUHFZmm4Bg3SxMQn8UqIXEXAB1FQQEF6nT3+z3Sn3cLYnd2Z2RL4TzKZmTPn/L8zv+/cz4jwIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESCEVA5ZN6SULfnRYZpSwZLVqGIG2FKNE6LRcsJWe0ksNlTXIiuUNdykf3Vo4bwAFaVVfJeEtkVlrLZCQYCWC9faBphBnwR3GzR2upW51Sx3ziMSiLQJcOWDZLD3a0LEBpfwZpBmaly32r5Bel5e1GLe+uS6kLuRPcmjH+1wHVlXoiAK5GE/NoCDSmVnymbVm0aqv6KYTOTZvU1wFo66eiPd+ArzbtfOgDXvjRsmRuzafq69BieQhUJ3SFtmSgraUvanEJ8nHFcuS3E7acS6WUk4dUbFGvc8DiWXqSpGUzLA6O0qrrBDRlNSl1OEpdPy2AH6eUzAT0x1GDRyCO6bPQjUkjnv9A+AHkZ1t5g9Qnd6urfhrFCuvkgOUJPbxVSQrGJ8SUgV3onGevSqm/49BfNFX3tstkHuDOh36uAtSAOHtR019bVasOxpGfIJqmVLhHIqFtwH8FD3HBN3aexPmCuYn6eHW6vscqkzcBvwbaueAb8+U4Z6Kfq11cpZ8wAd1xtDtghO12tma0E+dhYw4xF83csCiNJKfoXiWl8jo0Z+Ns/6aANkbBCRvhhIcDxo80WiazWllpeRrK/SJV9xPTMlo7Ms3vVaFhjeUu+OcLTY9aMxL93oqFCd23UI1C07l9wLKEvtexZD86p9GFCuWTDv1AvVMm09ZuUf/mk84v7qIZepBVInvxbpzf+zzCHHz/SytTalMeaXJGXTZDD02XygSsFtwB2KecJvl+9S512Uvo1gDHZF7LMC8w7itGKGN7NMvwKOxYpTIZOmMj0LIxQqpKJvTtEWhJcpIuWVypX3RK5XMUuFpov48Ofw/6qY/NKM2z4TrAAEFAmRdYhGs/VPv7w9oxHwmNx3C6NTmsHtKPbxa5LwIdaewv06GzPtOqmHyawzh3CnhvWPqU7m8CXAfAM0PNQxGPEmRsUFh7TX2wGJgO78isfPRxVHg9MxxGqZ8HXb81M2NuYrq1rR9s64S13JmViaLcYmEvtE2rp/RC2e8TYYZtlM67wurpUhmAKtlVf6owQ3/E2GlzAJaUwxrtjvQtzVgKl2jzjs6yKCww9HXttDlAJJaZaQ6nhLbZYstVfIhZAo/qaMU85c+wYrdZchYaR7rQMfi/Me+9Juh0F5HjeIVJt/waVrjivPyDLzgeVicr/SXMh05kPRd0m0ypK0i4EWf7cPMaoa8w8txlwjwHmKXixmsixfn4F1ZHw3/ol6oVmdyPM5JmA+3ZwR4iP0fx4Se17EDtXAgtU0BMPs1xBTndid3Dl9ek1O8mwB0e2SKH0PufxsuuOg4TP6rjUHMPORWFGNrsfeg4TXUfE1IPc1HZmim9IaVEMsvd72HZpR6OeMibiPUU+S5Z69YQ10Zm/KzVkkp5A8VoQWjLAQQAbGFNrVofIGqgKNVVeg4+cgMilwZK4BMJIL7ArKJq5Sfqos/r2ILamiBRGluPH8HK+dgsdQgfs9Oys+Mx/F35VdmCuczmgpWwfYrvX15s+Ca/GQdgkQJVA89bC/6IYAnTKP1vrUipSJofz6TZVHGaZSmeP8SZ9sIDXs2PA/PwA8GBgPEjjdbuALfNsmQdqvK3kVroLLanoUk+6BwUzdPa7epcutFtQpdicnYmgKoZdNRZtlSurFX7AsSPJUqmD+jQjmtLEh38DzD2bDG2JLGnPQZNUiVsdtqShP0GhJ9D+AEUtLqWMqmPYkW2g17+d9c5wEhEvSkPyYOY4Mzprk15lZZ+qOpmM+iytMjZG3pT3vOh+S0FmV6DkZG7ZuGF53lFcuy72lLN31L8yfnWAC8q1q2HoNTMR5V9DmEDvPAgVwifRLxNGNq90x2jiyB5vBHidOkAk8FkUlvNR+RBDNOq0G6aNtWsl/sts5rSbtZljuLc7TiybU2dCj3bhdZNfeR0QPbXez/nYir9AGgPxrsKXM364UUMaE9jtne0V4sc58+52dR4TwIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkECuB/wBPZdJDvg0l/QAAAABJRU5ErkJggg\\u003d\\u003d\"\n  },\n  \"description\": \"Utilizes Mixpanel server API for user and event tracking.\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"token\",\n    \"displayName\": \"Project Token\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"help\": \"You can get the Project Token from \\u003ca href\\u003d\\\"https://mixpanel.com/settings/project\\\" target\\u003d\\\"_blank\\\"\\u003eproject settings\\u003c/a\\u003e.\",\n    \"alwaysInSummary\": true\n  },\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"type\",\n    \"displayName\": \"Tag Type\",\n    \"selectItems\": [\n      {\n        \"value\": \"track\",\n        \"displayValue\": \"track\"\n      },\n      {\n        \"value\": \"identify\",\n        \"displayValue\": \"identify\"\n      },\n      {\n        \"value\": \"alias\",\n        \"displayValue\": \"alias\"\n      },\n      {\n        \"value\": \"reset\",\n        \"displayValue\": \"reset\"\n      },\n      {\n        \"value\": \"profile-set\",\n        \"displayValue\": \"set\"\n      },\n      {\n        \"value\": \"profile-append\",\n        \"displayValue\": \"append\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"defaultValue\": \"track\"\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"serverEU\",\n    \"checkboxText\": \"Route data to Mixpanel\\u0027s EU servers\",\n    \"simpleValueType\": true,\n    \"defaultValue\": false\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"identifyAuto\",\n    \"checkboxText\": \"Automatically handle customer distinct_id\",\n    \"simpleValueType\": true,\n    \"help\": \"Mixpanel server API optimized for stateless shared usage; e.g., in a web application, the same mixpanel instance is used across requests for all users. Rather than setting a distinct_id through identify() calls like Mixpanel client-side libraries (where a single Mixpanel instance is tied to a single user), this api requires you to pass the distinct_id with every tracking call.\",\n    \"defaultValue\": true,\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"reset\",\n        \"type\": \"NOT_EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"identifyCustom\",\n    \"displayName\": \"Distinct ID\",\n    \"simpleValueType\": true,\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"identifyAuto\",\n        \"paramValue\": false,\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"appendGroup\",\n    \"displayName\": \"User Properties to append\",\n    \"groupStyle\": \"ZIPPY_OPEN\",\n    \"subParams\": [\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"userPropertiesToAppend\",\n        \"displayName\": \"\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"User Property\",\n            \"name\": \"propertyName\",\n            \"type\": \"TEXT\"\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"valueToAppend\",\n            \"type\": \"TEXT\"\n          }\n        ]\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"profile-append\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"setGroup\",\n    \"displayName\": \"User Properties\",\n    \"groupStyle\": \"ZIPPY_OPEN\",\n    \"subParams\": [\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"userPropertiesTable\",\n        \"displayName\": \"\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"User Property\",\n            \"name\": \"userProperty\",\n            \"type\": \"TEXT\"\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ]\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"profile-set\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"identifyGroup\",\n    \"displayName\": \"Identify Options\",\n    \"groupStyle\": \"ZIPPY_OPEN\",\n    \"subParams\": [\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"identifier\",\n        \"displayName\": \"Identifier\",\n        \"simpleValueType\": true,\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ]\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"identify\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"aliasGroup\",\n    \"displayName\": \"Alias Options\",\n    \"groupStyle\": \"ZIPPY_OPEN\",\n    \"subParams\": [\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"alias\",\n        \"displayName\": \"Alias\",\n        \"simpleValueType\": true,\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ],\n        \"help\": \"\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"alias\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"trackGroup\",\n    \"displayName\": \"Track Options\",\n    \"groupStyle\": \"ZIPPY_OPEN\",\n    \"subParams\": [\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"trackName\",\n        \"displayName\": \"Event Name\",\n        \"simpleValueType\": true,\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ]\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"trackCommonData\",\n        \"checkboxText\": \"Send common data with request\",\n        \"simpleValueType\": true,\n        \"help\": \"Adds to track request user_agent, path, $current_url, $screen_width, $screen_height, $referrer, user ip, etc.\",\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"trackFromVariable\",\n        \"checkboxText\": \"Get parameters from variable\",\n        \"simpleValueType\": true\n      },\n      {\n        \"type\": \"SELECT\",\n        \"name\": \"trackParametersObject\",\n        \"displayName\": \"Parameters object\",\n        \"macrosInSelect\": true,\n        \"selectItems\": [],\n        \"simpleValueType\": true,\n        \"enablingConditions\": [\n          {\n            \"paramName\": \"trackFromVariable\",\n            \"paramValue\": true,\n            \"type\": \"EQUALS\"\n          }\n        ]\n      },\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"trackParameters\",\n        \"displayName\": \"Additional Parameters (Optional)\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Parameter Name\",\n            \"name\": \"name\",\n            \"type\": \"TEXT\"\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ]\n      },\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"trackList\",\n        \"displayName\": \"Parameters as lists\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Parameter Name\",\n            \"name\": \"listName\",\n            \"type\": \"TEXT\"\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Values\",\n            \"name\": \"listValues\",\n            \"type\": \"TEXT\"\n          }\n        ],\n        \"help\": \"List of parameters separated by comma sent as a Data Type  \\u003d \\\"list\\\". For Example: tags: tag1,tag2,tag3\"\n      },\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"trackParametersRemove\",\n        \"displayName\": \"Remove parameters from the request\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Parameter Name\",\n            \"name\": \"name\",\n            \"type\": \"TEXT\"\n          }\n        ],\n        \"help\": \"Useful for removing common parameters like $current_url or ip\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"type\",\n        \"paramValue\": \"track\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"displayName\": \"Logs Settings\",\n    \"name\": \"logsGroup\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"type\": \"GROUP\",\n    \"subParams\": [\n      {\n        \"type\": \"RADIO\",\n        \"name\": \"logType\",\n        \"radioItems\": [\n          {\n            \"value\": \"no\",\n            \"displayValue\": \"Do not log\"\n          },\n          {\n            \"value\": \"debug\",\n            \"displayValue\": \"Log to console during debug and preview\"\n          },\n          {\n            \"value\": \"always\",\n            \"displayValue\": \"Always log to console\"\n          }\n        ],\n        \"simpleValueType\": true,\n        \"defaultValue\": \"debug\"\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nconst getAllEventData = require('getAllEventData');\nconst JSON = require('JSON');\nconst sendHttpRequest = require('sendHttpRequest');\nconst getTimestampMillis = require('getTimestampMillis');\nconst setCookie = require('setCookie');\nconst getCookieValues = require('getCookieValues');\nconst getContainerVersion = require('getContainerVersion');\nconst logToConsole = require('logToConsole');\nconst getRequestHeader = require('getRequestHeader');\nconst generateRandom = require('generateRandom');\nconst parseUrl = require('parseUrl');\nconst makeString = require('makeString');\nconst Object = require('Object');\nconst makeNumber = require('makeNumber');\nconst getTimestamp = require('getTimestamp');\n\nconst postUrl = 'https://' + (data.serverEU ? 'api-eu.mixpanel.com' : 'api.mixpanel.com');\nconst containerVersion = getContainerVersion();\nconst isDebug = containerVersion.debugMode;\nconst isLoggingEnabled = determinateIsLoggingEnabled();\nconst traceId = getRequestHeader('trace-id');\nconst eventData = getAllEventData();\n\n\nlet cookieOptions = {\n    domain: 'auto',\n    path: '/',\n    samesite: 'Lax',\n    secure: true,\n    'max-age': 31536000, // 1 year\n    httpOnly: false\n};\n\nif (data.type === 'track') {\n    sendTrackRequest();\n} else if (data.type === 'alias') {\n    sendAliasRequest();\n} else if (data.type === 'identify') {\n    sendIdentifyRequest();\n} else if (data.type === 'profile-set') {\n    sendSetProfileRequest();\n} else if (data.type === 'profile-append') {\n    sendAppendProfileRequest();\n} else if (data.type === 'reset') {\n    cookieOptions['max-age'] = 1;\n    setCookie('stape_mixpanel_distinct_id', 'empty', cookieOptions);\n    setCookie('stape_mixpanel_device_id', 'empty', cookieOptions);\n    data.gtmOnSuccess();\n    return;\n}\n\nfunction sendAppendProfileRequest() {\n    const propertiesToAppend = {};\n    data.userPropertiesToAppend.forEach(row => {\n        if (!propertiesToAppend[row.propertyName]) {\n            propertiesToAppend[row.propertyName] = [];\n        }\n        propertiesToAppend[row.propertyName].push(row.valueToAppend);\n    });\n\n    const profileBody = {\n        '$token': data.token,\n        '$distinct_id': getDistinctId(),\n        '$append': propertiesToAppend\n    };\n\n    const postUrlAppend = postUrl + '/engage#profile-list-append';\n\n    // Logging the request if logging is enabled\n    if (isLoggingEnabled) {\n        logToConsole(JSON.stringify({\n            'Name': 'Mixpanel',\n            'Type': 'Request',\n            'TraceId': traceId,\n            'EventName': 'Profile Append',\n            'RequestMethod': 'POST',\n            'RequestUrl': postUrlAppend,\n            'RequestBody': profileBody,\n        }));\n    }\n\n    // Sending the HTTP request to Mixpanel\n    sendHttpRequest(postUrlAppend, (statusCode, headers, body) => {\n        // Logging the response if logging is enabled\n        if (isLoggingEnabled) {\n            logToConsole(JSON.stringify({\n                'Name': 'Mixpanel',\n                'Type': 'Response',\n                'TraceId': traceId,\n                'EventName': 'Profile Append',\n                'ResponseStatusCode': statusCode,\n                'ResponseHeaders': headers,\n                'ResponseBody': body,\n            }));\n        }\n\n        // Handling the response\n        if (statusCode >= 200 && statusCode < 400) {\n            data.gtmOnSuccess();\n        } else {\n            data.gtmOnFailure();\n        }\n    }, {headers: {'Content-Type': 'application/json'}, method: 'POST'}, JSON.stringify([profileBody]));\n}\n\nfunction sendSetProfileRequest() {\n    const userProperties = {};\n    data.userPropertiesTable.forEach(row => {\n        userProperties[row.userProperty] = row.value;\n    });\n\n    const profileBody = {\n        '$token': data.token,\n        '$distinct_id': getDistinctId(),\n        '$ip': eventData.ip_override || eventData.ip,\n        '$set': userProperties\n    };\n\n    const postUrlSet = postUrl + '/engage#profile-set';\n\n    // Logging the request if logging is enabled\n    if (isLoggingEnabled) {\n        logToConsole(JSON.stringify({\n            'Name': 'Mixpanel',\n            'Type': 'Request',\n            'TraceId': traceId,\n            'EventName': 'Profile Set',\n            'RequestMethod': 'POST',\n            'RequestUrl': postUrlSet,\n            'RequestBody': profileBody,\n        }));\n    }\n\n    // Sending the HTTP request to Mixpanel\n    sendHttpRequest(postUrlSet, (statusCode, headers, body) => {\n        // Logging the response if logging is enabled\n        if (isLoggingEnabled) {\n            logToConsole(JSON.stringify({\n                'Name': 'Mixpanel',\n                'Type': 'Response',\n                'TraceId': traceId,\n                'EventName': 'Profile Set',\n                'ResponseStatusCode': statusCode,\n                'ResponseHeaders': headers,\n                'ResponseBody': body,\n            }));\n        }\n\n        // Handling the response\n        if (statusCode >= 200 && statusCode < 400) {\n            data.gtmOnSuccess();\n        } else {\n            data.gtmOnFailure();\n        }\n    }, {headers: {'Content-Type': 'application/json'}, method: 'POST'}, JSON.stringify([profileBody]));\n}\n\nfunction sendTrackRequest() {\n    let postBody = {\n        properties: {}\n    };\n\n    if (data.trackCommonData) {\n        postBody = trackCommonData(postBody);\n    }\n\n    if (data.trackFromVariable && data.trackParametersObject) {\n        for (let key in data.trackParametersObject) {\n            postBody.properties[key] = data.trackParametersObject[key];\n        }\n    }\n\n    if (data.trackParameters) {\n        data.trackParameters.forEach(d => {\n            postBody.properties[d.name] = d.value;\n        });\n    }\n\n    if (data.trackList) {\n        data.trackList.forEach(d => {\n            // Check if listValues is a string and have commas\n            if (typeof d.listValues === 'string' && d.listValues.indexOf(',') !== -1) {\n                // Convert a string to an array of strings, removing whitespace characters and dividing by commas\n                postBody.properties[d.listName] = d.listValues.split(',').map(tag => tag.trim());\n            } else {\n                // If it is not a comma-delimited string, assign the value of listValues unchanged\n                postBody.properties[d.listName] = d.listValues;\n            }\n        });\n    }\n\n\n    if (data.trackParametersRemove) {\n        data.trackParametersRemove.forEach(d => {\n            Object.delete(postBody.properties, d.name);\n        });\n    }\n\n    sendRequest(data.trackName, postBody);\n}\n\nfunction sendAliasRequest() {\n    sendRequest('$create_alias', {\n        properties: {\n            alias: data.alias\n        }\n    });\n}\n\nfunction sendIdentifyRequest() {\n    sendRequest('$identify', {\n        properties: {\n            '$identified_id': data.identifier,\n            '$anon_id': getDistinctId()\n        }\n    });\n}\n\nfunction sendRequest(eventName, postBody) {\n    postBody.event = eventName;\n\n    if (!postBody.properties) postBody.properties = {};\n    postBody.properties.token = data.token;\n\n    if (data.type !== 'identify') {\n        postBody.properties.distinct_id = getDistinctId();\n        postBody.properties['$device_id'] = getDeviceId(postBody.properties.distinct_id);\n\n        if (data.identifyAuto) setDistinctIdCookies(postBody.properties.distinct_id, postBody.properties['$device_id']);\n    }\n\n    const postUrl = 'https://' + (data.serverEU ? 'api-eu.mixpanel.com' : 'api.mixpanel.com') + '/track?verbose=1';\n    postBody = [postBody];\n\n    if (isLoggingEnabled) {\n        logToConsole(JSON.stringify({\n            'Name': 'Mixpanel',\n            'Type': 'Request',\n            'TraceId': traceId,\n            'EventName': eventName,\n            'RequestMethod': 'POST',\n            'RequestUrl': postUrl,\n            'RequestBody': postBody,\n        }));\n    }\n\n    sendHttpRequest(postUrl, (statusCode, headers, body) => {\n        if (isLoggingEnabled) {\n            logToConsole(JSON.stringify({\n                'Name': 'Mixpanel',\n                'Type': 'Response',\n                'TraceId': traceId,\n                'EventName': eventName,\n                'ResponseStatusCode': statusCode,\n                'ResponseHeaders': headers,\n                'ResponseBody': body,\n            }));\n        }\n\n        if (statusCode >= 200 && statusCode < 400) {\n            data.gtmOnSuccess();\n        } else {\n            data.gtmOnFailure();\n        }\n    }, {headers: {'Content-Type': 'application/json'}, method: 'POST'}, JSON.stringify(postBody));\n}\n\nfunction getDistinctId() {\n    if (!data.identifyAuto) return data.identifyCustom;\n\n    let mpData = getCookieValues('mp_' + data.token + '_mixpanel')[0];\n    if (mpData) return JSON.parse(mpData).distinct_id;\n\n    let distinctIdCookie = getCookieValues('stape_mixpanel_distinct_id')[0];\n    if (distinctIdCookie) return distinctIdCookie;\n\n    return UUID();\n}\n\nfunction getDeviceId(distinctId) {\n    if (!data.identifyAuto) return data.identifyCustom;\n\n    let mpData = getCookieValues('mp_' + data.token + '_mixpanel')[0];\n    if (mpData) return JSON.parse(mpData)['$device_id'];\n\n    let distinctIdCookie = getCookieValues('stape_mixpanel_device_id')[0];\n    if (distinctIdCookie) return distinctIdCookie;\n\n    return distinctId;\n}\n\nfunction setDistinctIdCookies(distinctId, deviceId) {\n    setCookie('stape_mixpanel_distinct_id', makeString(distinctId), cookieOptions);\n    setCookie('stape_mixpanel_device_id', makeString(deviceId), cookieOptions);\n}\n\nfunction trackCommonData(postBody) {\n    postBody = {\n        properties: {\n            'ip': eventData.ip_override || eventData.ip,\n            'mp_lib': 'stape',\n            '$lib_version': '1.0.0',\n        }\n    };\n\n    if (eventData.user_agent) postBody.properties.user_agent = eventData.user_agent;\n    if (eventData.page_path) postBody.properties.path = eventData.page_path;\n    if (eventData.page_location) postBody.properties['$current_url'] = eventData.page_location;\n    if (eventData.screen_resolution) postBody.properties['$screen_width'] = eventData.screen_resolution.split('x')[0];\n    if (eventData.screen_resolution) postBody.properties['$screen_height'] = eventData.screen_resolution.split('x')[1];\n    if (eventData.page_referrer) postBody.properties['$referrer'] = eventData.page_referrer;\n    if (eventData.page_referrer) postBody.properties['$referring_domain'] = parseUrl(eventData.page_referrer).hostname;\n\n    const url = eventData.page_location || getRequestHeader('referer');\n    const urlParsed = parseUrl(url);\n\n    if (urlParsed && urlParsed.searchParams.utm_medium) postBody.properties['utm_medium'] = urlParsed.searchParams.utm_medium;\n    if (urlParsed && urlParsed.searchParams.utm_source) postBody.properties['utm_source'] = urlParsed.searchParams.utm_source;\n    if (urlParsed && urlParsed.searchParams.utm_campaign) postBody.properties['utm_campaign'] = urlParsed.searchParams.utm_campaign;\n    if (urlParsed && urlParsed.searchParams.utm_content) postBody.properties['utm_content'] = urlParsed.searchParams.utm_content;\n\n    if (postBody.properties['$referrer']) {\n        let searchEngine = getSearchEngine(postBody.properties['$referrer']);\n\n        if (searchEngine) {\n            let searchEngineKeyword = null;\n\n            if (urlParsed) {\n                searchEngineKeyword = searchEngine !== 'yahoo' ? urlParsed.searchParams.q : urlParsed.searchParams.p;\n            }\n\n            postBody.properties['$search_engine'] = searchEngine;\n            if (searchEngineKeyword) postBody.properties['mp_keyword'] = searchEngineKeyword;\n        }\n    }\n\n    if (postBody.properties.user_agent) {\n        let os = getOS(postBody.properties.user_agent);\n        let device = getDevice(postBody.properties.user_agent);\n        let browser = getBrowser(postBody.properties.user_agent);\n        let browserVersion = getBrowserVersion(postBody.properties.user_agent, browser);\n\n        if (os) postBody.properties['$os'] = os;\n        if (device) postBody.properties['$device'] = device;\n        if (browser) postBody.properties['$browser'] = browser;\n        if (browserVersion) postBody.properties['$browser_version'] = browserVersion;\n    }\n\n    if (!data.trackParametersRemove || !data.trackParametersRemove.some(el => el.name === '$initial_referrer')) {\n        let initialReferrer = getCookieValues('stape_mixpanel_initial_referrer')[0];\n        if (initialReferrer) postBody.properties['$initial_referrer'] = initialReferrer;\n        if (!initialReferrer) {\n            postBody.properties['$initial_referrer'] = postBody.properties['$referrer'] ? postBody.properties['$referrer'] : 'direct';\n            setCookie('stape_mixpanel_initial_referrer', makeString(postBody.properties['$initial_referrer']), cookieOptions);\n        }\n    }\n\n    if (postBody.properties['$initial_referrer'] && postBody.properties['$initial_referrer'] !== 'direct') postBody.properties['$initial_referring_domain'] = parseUrl(postBody.properties['$initial_referrer']).hostname;\n\n    return postBody;\n}\n\nfunction getOS(userAgent) {\n    if (userAgent.toLowerCase().match('windows') && userAgent.match('Phone')) return 'Windows Mobile';\n    else if (userAgent.toLowerCase().match('windows')) return 'Windows';\n    else if (userAgent.match('(iPhone|iPad|iPod)')) return 'iOS';\n    else if (userAgent.match('Android')) return 'Android';\n    else if (userAgent.match('(BlackBerry|PlayBook|BB10)')) return 'BlackBerry';\n    else if (userAgent.match('Mac')) return 'Mac OS X';\n    else if (userAgent.match('Linux')) return 'Linux';\n\n    return '';\n}\n\nfunction getDevice(userAgent) {\n    if (userAgent.match('iPad')) return 'iPad';\n    else if (userAgent.match('iPod')) return 'iPod Touch';\n    else if (userAgent.match('iPhone')) return 'iPhone';\n    else if (userAgent.toLowerCase().match('(blackberry|playbook|bb10)')) return 'BlackBerry';\n    else if (userAgent.toLowerCase().match('windows phone')) return 'Windows Phone';\n    else if (userAgent.match('Android')) return 'Android';\n\n    return '';\n}\n\nfunction getBrowser(userAgent) {\n    if (userAgent.match('Opera Mini')) return 'Opera Mini';\n    if (userAgent.match('Opera')) return 'Opera';\n    if (userAgent.toLowerCase().match('(BlackBerry|PlayBook|BB10)')) return 'BlackBerry';\n    if (userAgent.match('FBIOS')) return 'Facebook Mobile';\n    if (userAgent.match('Chrome')) return 'Chrome';\n    if (userAgent.match('CriOS')) return 'Chrome iOS';\n    if (userAgent.match('Apple') && userAgent.match('Mobile')) return 'Mobile Safari';\n    if (userAgent.match('Apple')) return 'Safari';\n    if (userAgent.match('Android')) return 'Android Mobile';\n    if (userAgent.match('Konqueror')) return 'Konqueror';\n    if (userAgent.match('Firefox')) return 'Firefox';\n    if (userAgent.match('MSIE') || userAgent.match('Trident')) return 'Internet Explorer';\n    if (userAgent.match('Gecko')) return 'Mozilla';\n\n    return '';\n}\n\nfunction getBrowserVersion(userAgent, browser) {\n    const versionRegexs = {\n        'Internet Explorer Mobile': 'rv:([0-9]+(.[0-9]+)?)',\n        'Microsoft Edge': 'Edge?/([0-9]+(.[0-9]+)?)',\n        'Chrome': 'Chrome/([0-9]+(.[0-9]+)?)',\n        'Chrome iOS': 'CriOS/([0-9]+(.[0-9]+)?)',\n        'UC Browser' : '(UCBrowser|UCWEB)/([0-9]+(.[0-9]+)?)',\n        'Safari': 'Version/([0-9]+(.[0-9]+)?)',\n        'Mobile Safari': 'Version/([0-9]+(.[0-9]+)?)',\n        'Opera': '(Opera|OPR)/([0-9]+(.[0-9]+)?)',\n        'Firefox': 'Firefox/([0-9]+(.[0-9]+)?)',\n        'Firefox iOS': 'FxiOS/([0-9]+(.[0-9]+)?)',\n        'Konqueror': 'Konqueror:([0-9]+(.[0-9]+)?)',\n        'BlackBerry': 'BlackBerry ([0-9]+(.[0-9]+)?)',\n        'Android Mobile': 'android.([0-9]+(.[0-9]+)?)',\n        'Samsung Internet': 'SamsungBrowser/([0-9]+(.[0-9]+)?)',\n        'Internet Explorer': '(rv:|MSIE )([0-9]+(.[0-9]+)?)',\n        'Mozilla': 'rv:([0-9]+(.[0-9]+)?)'\n    };\n\n    let regex = versionRegexs[browser];\n    if (regex === undefined) {\n        return null;\n    }\n\n    let matches = userAgent.match(regex);\n    if (!matches) {\n        return null;\n    }\n\n    return makeNumber(matches[matches.length - 2]);\n}\n\nfunction getSearchEngine(referrer) {\n    if (referrer.search('https?://(.*)google.([^/?]*)') === 0) return 'google';\n    else if (referrer.search('https?://(.*)bing.com') === 0) return 'bing';\n    else if (referrer.search('https?://(.*)yahoo.com') === 0) return 'yahoo';\n    else if (referrer.search('https?://(.*)duckduckgo.com') === 0) return 'duckduckgo';\n\n    return null;\n}\n\nfunction random() {\n    return generateRandom(1000000000000000, 10000000000000000)/10000000000000000;\n  }\n  \nfunction UUID() {\n    function s(n) { return h((random() * (1<<(n<<2)))^getTimestamp()).slice(-n); }\n    function h(n) { return (n|0).toString(16); }\n    return  [\n        s(4) + s(4), s(4),\n        '4' + s(3),\n        h(8|(random()*4)) + s(3),\n        getTimestamp().toString(16).slice(-10) + s(2)\n    ].join('-');\n}\n\nfunction determinateIsLoggingEnabled() {\n    if (!data.logType) {\n        return isDebug;\n    }\n\n    if (data.logType === 'no') {\n        return false;\n    }\n\n    if (data.logType === 'debug') {\n        return isDebug;\n    }\n\n    return data.logType === 'always';\n}\n\n\n___SERVER_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_request\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"headerWhitelist\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"trace-id\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"referer\"\n                  }\n                ]\n              }\n            ]\n          }\n        },\n        {\n          \"key\": \"headersAllowed\",\n          \"value\": {\n            \"type\": 8,\n            \"boolean\": true\n          }\n        },\n        {\n          \"key\": \"requestAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"headerAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"queryParameterAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"get_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"cookieAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"logging\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"environments\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"all\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_container_data\",\n        \"versionId\": \"1\"\n      },\n      \"param\": []\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_event_data\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"eventDataAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"set_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedCookies\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"stape_mixpanel_distinct_id\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"stape_mixpanel_device_id\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"stape_mixpanel_initial_referrer\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"send_http\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedUrls\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"urls\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"https://api.mixpanel.com/*\"\n              },\n              {\n                \"type\": 1,\n                \"string\": \"https://api-eu.mixpanel.com/*\"\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios:\n- name: Quick Test\n  code: runCode();\nsetup: ''\n\n\n___NOTES___\n\nCreated on 15/06/2022, 17:43:17\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "stape-io",
+                    "repository": "mixpanel-tag",
+                    "version": "77f4014e15641af8677ee96b9a92b9ba42042989",
+                    "signature": "f675e1df8822df5ec16f17283efead1df8a952cbeda630d1e97022f984ba36d4"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "templateId": "436",
+                "name": "Object Property Extractor",
+                "fingerprint": "1737719689128",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Object Property Extractor\",\n  \"description\": \"Allows getting property from a variable that contains an object\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ],\n  \"brand\": {\n    \"displayName\": \"stape-io\",\n    \"id\": \"github.com_stape-io\"\n  }\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"object_var\",\n    \"displayName\": \"Object\",\n    \"macrosInSelect\": true,\n    \"selectItems\": [],\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"object_property\",\n    \"displayName\": \"Property\",\n    \"simpleValueType\": true,\n    \"help\": \"You can use dot notation for getting a nested property. For example `data.user.email`\",\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nreturn data.object_property.split('.').reduce((a, b) => a[b], data.object_var);\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 30/09/2021, 18:10:20\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "stape-io",
+                    "repository": "object-property-extractor-variable",
+                    "version": "ed3eb7752839848e8d3f0738614801044320e691",
+                    "signature": "bc80784548468a31c97728dce62fa0c9c83323b230d0609075cf4f2be4bab68f"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "templateId": "446",
+                "name": "Object Builder",
+                "fingerprint": "1737719689158",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Object Builder\",\n  \"description\": \"Provides an interface for building objects.\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ],\n  \"brand\": {\n    \"displayName\": \"stape-io\",\n    \"id\": \"github.com_stape-io\"\n  }\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"inside_array\",\n    \"checkboxText\": \"Put object inside array\",\n    \"simpleValueType\": true,\n    \"help\": \"If checked built object will be put inside the array.\"\n  },\n  {\n    \"type\": \"LABEL\",\n    \"name\": \"start\",\n    \"displayName\": \"{\"\n  },\n  {\n    \"type\": \"SIMPLE_TABLE\",\n    \"name\": \"object_data\",\n    \"simpleTableColumns\": [\n      {\n        \"defaultValue\": \"\",\n        \"displayName\": \"Property\",\n        \"name\": \"property\",\n        \"type\": \"TEXT\"\n      },\n      {\n        \"defaultValue\": \"\",\n        \"displayName\": \"Value\",\n        \"name\": \"value\",\n        \"type\": \"TEXT\"\n      }\n    ]\n  },\n  {\n    \"type\": \"LABEL\",\n    \"name\": \"end\",\n    \"displayName\": \"}\"\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nconst makeTableMap = require('makeTableMap');\n\nif (!data.object_data) {\n  if (data.inside_array) {\n    return [{}];\n  }\n  \n  return {};\n}\n\nlet object = makeTableMap(data.object_data, 'property', 'value');\n\nif (data.inside_array) {\n  return [object];\n}\n\nreturn object;\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 30/09/2021, 18:10:20\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "stape-io",
+                    "repository": "object-builder-variable",
+                    "version": "51fc9df8d224fb6896242046b2e8c6809f4f3686",
+                    "signature": "0185a8667a00f685529dde2e6caf5a0e276f06cf284d45860d3f29046e22d110"
+                }
+            },
+            {
+                "accountId": "6246124678",
+                "containerId": "199416058",
+                "templateId": "456",
+                "name": "URL Parser",
+                "fingerprint": "1737719689164",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"__wm\": \"VGVtcGxhdGUtQXV0aG9yX1VSTFBhcnNlci1TaW1vLUFoYXZh\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"URL Parser\",\n  \"categories\": [\n    \"UTILITY\"\n  ],\n  \"description\": \"Parse any URL string for its constituent parts.\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ],\n  \"brand\": {\n    \"displayName\": \"gtm-templates-simo-ahava\",\n    \"id\": \"github.com_gtm-templates-simo-ahava\"\n  }\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"urlSource\",\n    \"displayName\": \"URL Source\",\n    \"macrosInSelect\": true,\n    \"selectItems\": [\n      {\n        \"value\": \"default_page_location\",\n        \"displayValue\": \"page_location\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"help\": \"Choose \\u003cstrong\\u003epage_location\\u003c/strong\\u003e to use the respective key from the Event Data object, or provide a variable that returns a valid URL string.\",\n    \"defaultValue\": \"default_page_location\"\n  },\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"componentType\",\n    \"displayName\": \"Component Type\",\n    \"macrosInSelect\": false,\n    \"selectItems\": [\n      {\n        \"value\": \"filenameExtension\",\n        \"displayValue\": \"Filename Extension\"\n      },\n      {\n        \"value\": \"fragment\",\n        \"displayValue\": \"Fragment\"\n      },\n      {\n        \"value\": \"fullUrl\",\n        \"displayValue\": \"Full URL\"\n      },\n      {\n        \"value\": \"hostName\",\n        \"displayValue\": \"Host Name\"\n      },\n      {\n        \"value\": \"path\",\n        \"displayValue\": \"Path\"\n      },\n      {\n        \"value\": \"port\",\n        \"displayValue\": \"Port\"\n      },\n      {\n        \"value\": \"protocol\",\n        \"displayValue\": \"Protocol\"\n      },\n      {\n        \"value\": \"query\",\n        \"displayValue\": \"Query\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"defaultValue\": \"fullUrl\"\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"stripWww\",\n    \"checkboxText\": \"Strip \\u0027www.\\u0027\",\n    \"simpleValueType\": true,\n    \"help\": \"If enabled, the leading \\u0027www.\\u0027 will be stripped from the hostname.\",\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"componentType\",\n        \"paramValue\": \"hostName\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"queryKey\",\n    \"displayName\": \"Query Key (optional)\",\n    \"simpleValueType\": true,\n    \"help\": \"If provided, the value for the first query key matching the setting will be returned.\",\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"componentType\",\n        \"paramValue\": \"query\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\n// Enter your template code here.\nconst decodeUri = require('decodeUri');\nconst decodeUriComponent = require('decodeUriComponent');\nconst getEventData = require('getEventData');\nconst parseUrl = require('parseUrl');\n\nconst log = require('logToConsole');\n\nconst parsedUrl = parseUrl(data.urlSource === 'default_page_location' ? getEventData('page_location') : data.urlSource);\n\n// If not a valid URL, return undefined\nif (!parsedUrl) return;\n\nswitch (data.componentType) {\n  case 'filenameExtension':\n    return parsedUrl.pathname.split('.').pop();\n  case 'fragment':\n    return parsedUrl.hash;\n  case 'fullUrl':\n    return parsedUrl.href;\n  case 'hostName':\n    return data.stripWww ? parsedUrl.hostname.replace('www.', '') : parsedUrl.hostname;\n  case 'path':\n    return parsedUrl.pathname;\n  case 'port':\n    return parsedUrl.port;\n  case 'protocol':\n    return parsedUrl.protocol;\n  case 'query':\n    if (data.queryKey) {\n      return parsedUrl.searchParams[data.queryKey] ? decodeUriComponent(parsedUrl.searchParams[data.queryKey]) : undefined;\n    } else {\n      return parsedUrl.search;\n    }\n}\n\n\n___SERVER_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_event_data\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"keyPatterns\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"page_location\"\n              }\n            ]\n          }\n        },\n        {\n          \"key\": \"eventDataAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"logging\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"environments\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"debug\"\n          }\n        }\n      ]\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\nsetup: \"const mockData = {\\n  urlSource: 'default_page_location',\\n  componentType:\\\n  \\ 'filenameExtension'\\n};\\n\\nmock('getEventData', () => {\\n  return 'https://www.mock-url.com:8080/test.pdf?param1=value#hash';\\n\\\n  });\\n  \"\n\n\n___NOTES___\n\nCreated on 02/04/2021, 20:35:12\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "gtm-templates-simo-ahava",
+                    "repository": "url-parser",
+                    "version": "f7fcca3e54e4ef238b6075e01da08d4ff7d51d99",
+                    "signature": "6dd65818dfe9898b4fa9065ed02edd3744321b5db168f51deb3ffffbf172d2be"
+                }
+            }
+        ]
+    }
+}
